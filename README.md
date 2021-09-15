@@ -1,2 +1,2 @@
 # GeometriaVisual
-Repositorio temporal del libro de Geometria Visual
+Repositorio temporal del libro de Geometría visual

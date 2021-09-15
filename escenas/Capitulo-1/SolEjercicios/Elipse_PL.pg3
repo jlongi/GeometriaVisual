@@ -1,0 +1,162 @@
+﻿<APP></APP>
+
+<AUX>
+_escala_=57.210302708444
+_Ox_=-23.7629
+_Oy_=128.4613
+_nNOG_=110
+_pasos_=1
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=0
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0872 ¦ 0
+-0.0076 ¦ 0.0868 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',1.406193091515,3.183454327838,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',3.097931815326,3.197537380369,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',1.392803922597,4.940824230462,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_104:=newLine2D(P_101,P_102,rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'L_105:=newLine2D(P_101,P_103,azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',3.028898518195,4.945753937035,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_107:=newLine2D(P_102,P_106,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_108:=newLine2D(P_103,P_106,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_109:=newMeetLL2D('','',L_108,L_104,'')' ¦ 'rojo' ¦ 3 ¦ '' ¦ ''
+'P_110:=newMeetLL2D('','',L_107,L_105,'')' ¦ 'azul_descartes' ¦ 3 ¦ '' ¦ ''
+'L_111:=newLine2D(P_109,P_110,morado,3,'')' ¦ 'morado' ¦ 3 ¦ '' ¦ ''
+'L_112:=newLine2D(P_101,P_106,naranja,2,'')' ¦ 'naranja' ¦ 2 ¦ '' ¦ ''
+'P_113:=newMeetLL2D('','',L_111,L_112,'')' ¦ 'naranja' ¦ 3 ¦ '' ¦ ''
+'L_114:=newLine2D(P_103,P_102,verde,2,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_114,L_112,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_116:=newLine2D(P_110,P_115,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_117:=newLine2D(P_115,P_109,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_118:=newMeetLL2D('','',L_116,L_104,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'L_119:=newLine2D(P_118,P_113,naranja_soft,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'P_120:=newMeetLL2D('','',L_119,L_108,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_121:=newLine2D(P_110,P_120,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_122:=newMeetLL2D('','',L_121,L_112,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_123:=newLine2D(P_122,P_109,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_124:=newMeetLL2D('','',L_107,L_123,'')' ¦ 'verde_soft' ¦ 1 ¦ '' ¦ ''
+'L_125:=newLine2D(P_124,P_120,verde_soft,1,'')' ¦ 'verde_soft' ¦ 1 ¦ '' ¦ ''
+'P_126:=newMeetLL2D('','',L_125,L_112,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_127:=newLine2D(P_110,P_126,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_128:=newLine2D(P_126,P_109,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_129:=newMeetLL2D('','',L_114,L_119,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_130:=newLine2D(P_129,P_109,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_131:=newLine2D(P_129,P_110,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_132:=newMeetLL2D('','',L_131,L_112,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_133:=newLine2D(P_132,P_109,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_134:=newMeetLL2D('','',L_114,L_125,'')' ¦ 'verde' ¦ 3 ¦ '' ¦ ''
+'L_135:=newLine2D(P_134,P_101,verde,2,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+'P_136:=newMeetLL2D('','',L_135,L_128,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_137:=newMeetLL2D('','',L_135,L_108,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_138:=newMeetLL2D('','',L_135,L_133,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_139:=newLine2D(P_136,P_110,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_140:=newLine2D(P_110,P_137,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_141:=newLine2D(P_138,P_110,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_142:=newMeetLL2D('','',L_127,L_135,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_143:=newMeetLL2D('','',L_107,L_135,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_144:=newMeetLL2D('','',L_131,L_135,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_145:=newLine2D(P_144,P_109,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_146:=newLine2D(P_109,P_143,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_147:=newLine2D(P_142,P_109,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_148:=newMeetLL2D('','',L_127,L_104,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_149:=newMeetLL2D('','',L_107,L_133,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_150:=newMeetLL2D('','',L_131,L_108,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_151:=newMeetLL2D('','',L_128,L_105,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_152:=newMeetLL2D('','',L_108,L_141,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_153:=newMeetLL2D('','',L_140,L_133,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_154:=newMeetLL2D('','',L_139,L_104,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_155:=newMeetLL2D('','',L_140,L_145,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_156:=newMeetLL2D('','',L_141,L_146,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_157:=newMeetLL2D('','',L_105,L_147,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_158:=newMeetLL2D('','',L_131,L_146,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_159:=newMeetLL2D('','',L_145,L_107,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'L_160:=newSvsL(P_148,P_149,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_161:=newSvsL(P_149,P_150,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_162:=newSvsL(P_150,P_151,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_163:=newSvsL(P_151,P_152,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_164:=newSvsL(P_152,P_153,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_165:=newSvsL(P_153,P_154,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_166:=newSvsL(P_154,P_155,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_167:=newSvsL(P_155,P_156,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_168:=newSvsL(P_156,P_157,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_169:=newSvsL(P_157,P_158,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_170:=newSvsL(P_158,P_159,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_171:=newSvsL(P_159,P_148,L_111,fuerte_soft,2,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'T_172:=newTvsL(P_152,P_150,P_156,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_173:=newTvsL(P_158,P_150,P_156,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_174:=newTvsL(P_157,P_156,P_158,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_175:=newTvsL(P_151,P_152,P_150,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_176:=newTvsL(P_150,P_149,P_158,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_177:=newTvsL(P_158,P_159,P_149,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_178:=newTvsL(P_149,P_148,P_159,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_179:=newTvsL(P_152,P_153,P_156,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_180:=newTvsL(P_156,P_154,P_153,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_181:=newTvsL(P_154,P_156,P_155,L_111,amarillo_oscuro_soft,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'L_182:=newSvsL(P_151,P_126,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_183:=newSvsL(P_126,P_148,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_184:=newSvsL(P_148,P_101,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_185:=newSvsL(P_101,P_103,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_186:=newMeetLL2D('','',L_108,L_127,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_187:=newSvsL(P_103,P_186,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_188:=newMeetLL2D('','',L_127,L_133,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_189:=newMeetLL2D('','',L_185,L_133,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_190:=newSvsL(P_188,P_189,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_191:=newMeetLL2D('','',L_127,L_117,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_192:=newMeetLL2D('','',L_117,L_105,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_193:=newSvsL(P_191,P_192,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_194:=newMeetLL2D('','',L_130,L_127,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_195:=newMeetLL2D('','',L_112,L_130,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_196:=newLine2D(P_195,P_110,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_197:=newMeetLL2D('','',L_105,L_130,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_198:=newSvsL(P_194,P_197,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_199:=newMeetLL2D('','',L_196,L_184,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_200:=newMeetLL2D('','',L_196,L_128,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_201:=newMeetLL2D('','',L_116,L_128,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_202:=newMeetLL2D('','',L_131,L_128,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_203:=newMeetLL2D('','',L_107,L_128,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_204:=newSvsL(P_200,P_199,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_205:=newMeetLL2D('','',L_116,L_104,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_206:=newSvsL(P_205,P_201,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_207:=newMeetLL2D('','',L_131,L_104,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_208:=newSvsL(P_202,P_207,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_209:=newSvsL(P_203,P_102,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_210:=newSvsL(P_151,P_103,L_111,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>210</NOG>
+<SPACE>R</SPACE>
+<TEXT></TEXT>
+<HCOLS>1,3,3,0,3,0,3,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

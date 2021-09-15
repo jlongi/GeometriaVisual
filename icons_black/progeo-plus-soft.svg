@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>progeo-plus-soft</title>
+  <g class="a">
+    <polyline class="b" points="17.3 25.7 23 20 17.3 14.3"/>
+  </g>
+</svg>

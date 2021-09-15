@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a, .b {
+        fill: #467cd9;
+      }
+
+      .a {
+        fill-opacity: 0.25;
+      }
+
+      .a, .b, .c {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        fill-opacity: 0.5;
+      }
+
+      .c {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>progeo-3d-box</title>
+  <g>
+    <polygon class="a" points="20 10 4 10 10 4 26 4 20 10"/>
+    <polygon class="a" points="20 26 4 26 10 20 26 20 20 26"/>
+    <polygon class="a" points="10 20 4 26 4 10 10 4 10 20"/>
+    <rect class="b" x="10" y="4" width="16" height="16"/>
+    <rect class="c" x="4" y="10" width="16" height="16"/>
+    <polygon class="a" points="26 20 20 26 20 10 26 4 26 20"/>
+  </g>
+</svg>

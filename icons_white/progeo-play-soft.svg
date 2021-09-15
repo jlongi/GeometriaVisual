@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.5;
+      }
+
+      .b, .c {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        stroke: #467cd9;
+      }
+
+      .c {
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <title>progeo-play-soft</title>
+  <g class="a">
+    <circle class="b" cx="15" cy="15" r="11"/>
+    <polygon class="c" points="21 15 11 21 11 9 21 15"/>
+  </g>
+</svg>

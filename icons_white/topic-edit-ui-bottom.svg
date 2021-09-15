@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a, .b {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .a {
+        stroke: #000;
+      }
+
+      .b {
+        stroke: #467cd9;
+      }
+    </style>
+  </defs>
+  <title>topic-edit-ui-bottom</title>
+  <g>
+    <rect class="a" x="3" y="5" width="24" height="20"/>
+    <rect class="b" x="9" y="16" width="12" height="6" transform="translate(30 38) rotate(180)"/>
+    <polyline class="a" points="17.8 10.2 15 13 12.2 10.2"/>
+  </g>
+</svg>

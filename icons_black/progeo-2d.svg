@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        fill: #467cd9;
+      }
+
+      .a, .b {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>progeo-2d</title>
+  <g>
+    <rect class="a" x="6" y="7" width="18" height="18"/>
+    <g>
+      <line class="b" x1="6" y1="2" x2="6" y2="25"/>
+      <polyline class="b" points="4.6 3.4 6 2 7.4 3.4"/>
+    </g>
+    <g>
+      <line class="b" x1="29" y1="25" x2="6" y2="25"/>
+      <polyline class="b" points="27.6 23.6 29 25 27.6 26.4"/>
+    </g>
+  </g>
+</svg>

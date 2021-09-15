@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: none;
+        stroke: #467cd9;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>page-previous-soft</title>
+  <g class="a">
+    <polyline class="b" points="18.5 6.5 10 15 18.5 23.5"/>
+  </g>
+</svg>

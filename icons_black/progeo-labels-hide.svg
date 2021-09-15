@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a, .b {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .a {
+        stroke: #fff;
+      }
+
+      .b {
+        stroke: #cc0911;
+      }
+    </style>
+  </defs>
+  <title>progeo-labels-hide</title>
+  <g>
+    <g>
+      <polyline class="a" points="7 24 15 6 23 24"/>
+      <line class="a" x1="5.5" y1="24" x2="8.5" y2="24"/>
+      <line class="a" x1="21.5" y1="24" x2="24.5" y2="24"/>
+      <line class="a" x1="10.1" y1="17" x2="19.9" y2="17"/>
+    </g>
+    <g>
+      <circle class="b" cx="24" cy="6" r="4"/>
+      <line class="b" x1="21.2" y1="3.2" x2="26.8" y2="8.8"/>
+    </g>
+  </g>
+</svg>

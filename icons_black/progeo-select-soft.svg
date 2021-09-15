@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: #467cd9;
+      }
+
+      .c {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>progeo-select-soft</title>
+  <g class="a">
+    <circle class="b" cx="9" cy="6" r="4"/>
+    <polygon class="c" points="9 6 9 23.3 14.8 20 19.3 27.8 22.7 25.8 18.2 18 24 14.7 9 6"/>
+  </g>
+</svg>

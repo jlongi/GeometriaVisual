@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .a {
+        fill: #467cd9;
+      }
+
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>progeo-redo</title>
+  <g>
+    <circle class="a" cx="25.5" cy="32" r="2"/>
+    <path class="b" d="M21.5,32a9,9,0,0,1,0-18h6"/>
+    <polyline class="b" points="21.8 8.3 27.5 14 21.8 19.7"/>
+  </g>
+</svg>

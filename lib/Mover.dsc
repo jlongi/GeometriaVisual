@@ -1,0 +1,2 @@
+id='mover(n,dx,dy)' algoritmo='sí' expresión='1' hacer='DATA[n,_x]=DATA[n,_x]+dx;DATA[n,_y]=DATA[n,_y]+dy;' tipo='función' 
+id='movimientos()' algoritmo='sí' expresión='asignando' inicio='creando=0;asignando=0;' hacer='moviendo=1-moviendo' tipo='función'

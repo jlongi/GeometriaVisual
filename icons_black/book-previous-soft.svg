@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.25;
+      }
+
+      .b, .c {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        stroke: #fff;
+      }
+
+      .c {
+        stroke: #467cd9;
+      }
+    </style>
+  </defs>
+  <title>book-previous-soft</title>
+  <g class="a">
+    <polyline class="b" points="29 38 11 20 29 2"/>
+    <polyline class="c" points="29 28 21 20 29 12"/>
+  </g>
+</svg>

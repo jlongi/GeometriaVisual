@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: #467cd9;
+      }
+
+      .b, .c {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .c {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>progeo-unhide-soft</title>
+  <g class="a">
+    <path class="b" d="M13.9,13.6A6.7,6.7,0,0,0,13,17a7,7,0,0,0,14,0,6.7,6.7,0,0,0-.9-3.4A13.8,13.8,0,0,0,20,12,13.8,13.8,0,0,0,13.9,13.6Z"/>
+    <path class="c" d="M34,20s-6.3-8-14-8S6,20,6,20s6.3,8,14,8S34,20,34,20Z"/>
+  </g>
+</svg>

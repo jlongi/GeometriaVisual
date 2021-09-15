@@ -1,0 +1,120 @@
+﻿<APP>Polaridad y cuartetas armónicas</APP>
+
+<AUX>
+_escala_=48
+_Ox_=7
+_Oy_=77
+_nNOG_=20
+_pasos_=4
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=
+planoxy=
+caja=
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0872 ¦ 0
+-0.0076 ¦ 0.0868 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-3.659598214286,0.411458333333,0,'',naranja_soft,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-2.805431547619,3.557291666667,0,'',naranja_soft,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',0.194568452381,4.265625,0,'',naranja_soft,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',1.923735119048,1.703125,0,'',naranja_soft,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',0.194568452381,-0.151041666667,0,'',naranja_soft,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'C_106:=newConic5Pts(P_101,P_102,P_103,P_104,P_105,'')' ¦ 'naranja' ¦ 2 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('A','',-2.565734254931,3.721282946299,0,'106',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ 'A' ¦ ''
+'P_108:=newCnstrGCtrl3D('B','',2.011091083405,2.155862276239,0,'106',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ 'B' ¦ ''
+'P_109:=newCnstrGCtrl3D('C','',-0.570956586583,-0.428408978589,0,'106',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'C' ¦ ''
+'L_110:=newLine2D(P_107,P_108,rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'P_111:=newPole(L_110,C_106,'')' ¦ 'rojo' ¦ 4 ¦ 'Q' ¦ ''
+'P_112:=newHarmonicReflection(109,111,110,'')' ¦ 'azul_descartes' ¦ 4 ¦ 'D' ¦ ''
+'L_113:=newLine2D(P_109,P_112,azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_114:=newPole(L_113,C_106,'')' ¦ 'azul_descartes' ¦ 4 ¦ 'P' ¦ ''
+'L_115:=newPolarLine(P_109,C_106,'')' ¦ 'azul_descartes_soft' ¦ 4 ¦ '' ¦ ''
+'L_116:=newPolarLine(P_112,C_106,'')' ¦ 'azul_descartes_soft' ¦ 4 ¦ '' ¦ ''
+'L_117:=newPolarLine(P_107,C_106,'')' ¦ 'rojo_soft' ¦ 4 ¦ '' ¦ ''
+'L_118:=newPolarLine(P_108,C_106,'')' ¦ 'rojo_soft' ¦ 4 ¦ '' ¦ ''
+'P_119:=newMeetLL2D('','',L_110,L_113,'')' ¦ 'verde' ¦ 4 ¦ 'O' ¦ ''
+'L_120:=newPolarLine(P_119,C_106,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>109</NOG>
+<SPACE>BL</SPACE>
+<TEXT></TEXT>
+<HCOLS>0,0,2,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>111</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,2,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA></CAJA>
+<PLANOXY></PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>113</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,2,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA></CAJA>
+<PLANOXY></PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>120</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,2,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA></CAJA>
+<PLANOXY></PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

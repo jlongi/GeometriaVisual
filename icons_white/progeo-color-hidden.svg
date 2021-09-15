@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.75;
+      }
+
+      .b, .c {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        stroke: #fff;
+        stroke-width: 4px;
+      }
+
+      .c {
+        stroke: #cc0911;
+      }
+    </style>
+  </defs>
+  <title>progeo-color-hidden</title>
+  <g>
+    <g class="a">
+      <line class="b" x1="11.5" y1="11.5" x2="18.5" y2="18.5"/>
+      <line class="b" x1="11.5" y1="18.5" x2="18.5" y2="11.5"/>
+    </g>
+    <g>
+      <line class="c" x1="11.5" y1="11.5" x2="18.5" y2="18.5"/>
+      <line class="c" x1="11.5" y1="18.5" x2="18.5" y2="11.5"/>
+    </g>
+  </g>
+</svg>

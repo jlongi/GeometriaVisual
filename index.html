@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  <title>DIBooks - Geometría Visual</title>
+
+  <link rel="stylesheet" href="src/style.css">
+  <!-- <script src="lib/descartes-min.js"></script> -->
+  <script src="src/readAux.js"></script>
+  <script src="src/DIBooks.js"></script>
+  <script src="src/Main.js"></script>
+</head>
+
+<body>
+  <div id="loader"><div id="loader_logo"></div></div>
+  <div id="container">
+    <!-- chapter content -->
+    <div id="book_pages">
+      <div id="page">
+        <canvas id="text_cover"></canvas>
+        <div id="page_zone_back"></div><div id="page_zone_next"></div>
+
+        <div id="show_page_viewer"></div>
+        <div id="prev_png" class="prev_button"></div>
+        <div id="next_png" class="next_button"></div>
+
+        <iframe id="ProGeo3D_small" src="viewer_720x528.html?view=roli" width="480" height="352" frameBorder="0" scrolling="no"></iframe>
+
+        <iframe id="ProGeo3d_fullscreen" src="pg3d.html?view=1" width="1050" height="788" frameBorder="0" scrolling="no"></iframe>
+      </div>
+
+      <div id="page_viewer">
+        <input id="page_range" class="slider" type="range" min="0" max="100" value="0" step="1">
+        <div id="prev_page" class="prev_button"></div>
+        <div id="next_page" class="next_button"></div>
+  
+        <div id="pages_container">
+          <div id="pages_scroll"></div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+</html>

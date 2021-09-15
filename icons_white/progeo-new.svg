@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .a {
+        fill: #467cd9;
+      }
+
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>progeo-new</title>
+  <g>
+    <polygon class="a" points="30 15 22 15 22 7 30 15"/>
+    <polyline class="b" points="30 15 22 15 22 7"/>
+    <polygon class="b" points="30 15 30 33 10 33 10 7 22 7 30 15"/>
+  </g>
+</svg>

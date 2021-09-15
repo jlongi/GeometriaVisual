@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: none;
+        stroke: #467cd9;
+        stroke-width: 2px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>topic-edit-step-previous-soft</title>
+  <g class="a">
+    <polyline class="b" points="17.7 20.7 12 15 17.7 9.3"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a, .b {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .a {
+        stroke: #467cd9;
+      }
+
+      .b {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <title>timeline-previous</title>
+  <g>
+    <polyline class="a" points="19.2 19.2 15 15 19.2 10.8"/>
+    <polyline class="b" points="18.5 6.5 10 15 18.5 23.5"/>
+  </g>
+</svg>

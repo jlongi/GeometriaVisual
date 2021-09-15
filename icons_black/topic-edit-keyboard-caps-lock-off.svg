@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>topic-edit-keyboard-caps-lock-off</title>
+  <g>
+    <polygon class="a" points="11 19 11 13 6 13 15 4 24 13 19 13 19 19 11 19"/>
+    <rect class="a" x="11" y="22" width="8" height="4"/>
+  </g>
+</svg>

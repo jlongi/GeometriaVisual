@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a, .b {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .a {
+        stroke: #467cd9;
+      }
+
+      .b {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <title>timeline-next</title>
+  <g>
+    <polyline class="a" points="10.8 10.8 15 15 10.8 19.2"/>
+    <polyline class="b" points="11.5 23.5 20 15 11.5 6.5"/>
+  </g>
+</svg>

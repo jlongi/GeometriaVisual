@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        fill: #467cd9;
+      }
+
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>progeo-maximize</title>
+  <g>
+    <rect class="a" x="13" y="13" width="4" height="4"/>
+    <g>
+      <polyline class="b" points="6 20 6 24 10 24"/>
+      <line class="b" x1="6" y1="24" x2="11" y2="19"/>
+    </g>
+    <g>
+      <polyline class="b" points="24 20 24 24 20 24"/>
+      <line class="b" x1="24" y1="24" x2="19" y2="19"/>
+    </g>
+    <g>
+      <polyline class="b" points="24 10 24 6 20 6"/>
+      <line class="b" x1="24" y1="6" x2="19" y2="11"/>
+    </g>
+    <g>
+      <polyline class="b" points="6 10 6 6 10 6"/>
+      <line class="b" x1="6" y1="6" x2="11" y2="11"/>
+    </g>
+  </g>
+</svg>

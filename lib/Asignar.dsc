@@ -1,0 +1,5 @@
+id='asignar_color(n,c)' algoritmo='sí' expresión='c' hacer='DATA[n,_c]=c' tipo='función' 
+id='asignar_accion(n,accion)' algoritmo='sí' expresión='1' hacer='DATA[n,_a]=accion' tipo='función' 
+id='asignar_etiqueta(n,e)' algoritmo='sí' expresión='1' hacer='DATA[n,_nom]=e' tipo='función' 
+id='asignar_valor(n,v)' algoritmo='sí' expresión='1' local='str' hacer='DATA[n,_var_val]=v;str=DATA[n,_var_nom]+&squot;:=&squot;+DATA[n,_var_val];evaluar(str)' tipo='función' 
+id='asignar()' algoritmo='sí' expresión='asignando' inicio='creando=0;moviendo=0' hacer='asignando=1-asignando' tipo='función'

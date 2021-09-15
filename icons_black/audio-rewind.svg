@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .a, .c {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b, .c {
+        fill: #467cd9;
+      }
+
+      .c {
+        stroke: #467cd9;
+      }
+    </style>
+  </defs>
+  <title>audio-rewind</title>
+  <g>
+    <g>
+      <line class="a" x1="15" y1="27" x2="21" y2="27"/>
+      <line class="a" x1="18" y1="24" x2="18" y2="27"/>
+      <path class="a" d="M25,14v3a7,7,0,0,1-7,7h0a7,7,0,0,1-7-7V14"/>
+      <rect class="a" x="14" y="3" width="8" height="18" rx="4" ry="4"/>
+    </g>
+    <g>
+      <rect class="b" x="2.5" y="2.5" width="2" height="9" rx="1" ry="1"/>
+      <polygon class="c" points="4 7 10 11 10 3 4 7"/>
+    </g>
+  </g>
+</svg>

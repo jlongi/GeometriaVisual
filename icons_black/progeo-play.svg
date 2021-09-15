@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a, .b {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .a {
+        stroke: #467cd9;
+      }
+
+      .b {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <title>progeo-play</title>
+  <g>
+    <circle class="a" cx="15" cy="15" r="11"/>
+    <polygon class="b" points="21 15 11 21 11 9 21 15"/>
+  </g>
+</svg>

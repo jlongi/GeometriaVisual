@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: #467cd9;
+      }
+
+      .c {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>progeo-revert-soft</title>
+  <g class="a">
+    <circle class="b" cx="6.6" cy="18.2" r="2"/>
+    <path class="c" d="M8.8,21.5A8.7,8.7,0,0,0,15,24,9,9,0,0,0,15,6a9.1,9.1,0,0,0-8.6,6.2"/>
+    <polyline class="c" points="12 12.2 6 12.2 6 6.2"/>
+  </g>
+</svg>

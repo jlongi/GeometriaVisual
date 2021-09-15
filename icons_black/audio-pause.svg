@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        fill: #467cd9;
+      }
+    </style>
+  </defs>
+  <title>audio-pause</title>
+  <g>
+    <g>
+      <line class="a" x1="9" y1="27" x2="15" y2="27"/>
+      <line class="a" x1="12" y1="24" x2="12" y2="27"/>
+      <path class="a" d="M19,14v3a7,7,0,0,1-7,7h0a7,7,0,0,1-7-7V14"/>
+      <rect class="a" x="8" y="3" width="8" height="18" rx="4" ry="4"/>
+    </g>
+    <g>
+      <rect class="b" x="24.5" y="2.5" width="2" height="9" rx="1" ry="1"/>
+      <rect class="b" x="20.5" y="2.5" width="2" height="9" rx="1" ry="1"/>
+    </g>
+  </g>
+</svg>

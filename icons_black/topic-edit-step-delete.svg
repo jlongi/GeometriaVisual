@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        fill: #467cd9;
+      }
+
+      .a, .b, .c {
+        stroke: #fff;
+      }
+
+      .a, .b, .c, .d {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        fill: #cc0911;
+      }
+
+      .c, .d {
+        fill: none;
+      }
+
+      .d {
+        stroke: #cc0911;
+      }
+    </style>
+  </defs>
+  <title>topic-edit-step-delete</title>
+  <g>
+    <g>
+      <rect class="a" x="21" y="19" width="6" height="6"/>
+      <rect class="b" x="12" y="21" width="6" height="6"/>
+      <rect class="a" x="3" y="19" width="6" height="6"/>
+    </g>
+    <g>
+      <polyline class="c" points="17.8 15.2 15 18 12.2 15.2"/>
+      <line class="c" x1="15" y1="18" x2="15" y2="7"/>
+    </g>
+    <g>
+      <line class="d" x1="4.2" y1="9.8" x2="9.8" y2="4.2"/>
+      <line class="d" x1="9.8" y1="9.8" x2="4.2" y2="4.2"/>
+    </g>
+  </g>
+</svg>

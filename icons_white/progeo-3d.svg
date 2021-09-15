@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a, .b {
+        fill: none;
+      }
+
+      .a, .c, .d, .e {
+        stroke: #000;
+      }
+
+      .a, .b, .c, .d, .e {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        stroke: gray;
+      }
+
+      .c, .d, .e {
+        fill: #467cd9;
+      }
+
+      .c {
+        fill-opacity: 0.5;
+      }
+
+      .d {
+        fill-opacity: 0.25;
+      }
+    </style>
+  </defs>
+  <title>progeo-3d</title>
+  <g>
+    <g>
+      <line class="a" x1="19.7" y1="28.5" x2="5" y2="20"/>
+      <polyline class="a" points="19.2 26.6 19.7 28.5 17.8 29"/>
+    </g>
+    <g>
+      <line class="b" x1="19.7" y1="11.5" x2="15" y2="14.2"/>
+      <polyline class="b" points="17.8 11 19.7 11.5 19.2 13.4"/>
+    </g>
+    <g>
+      <line class="a" x1="5" y1="3" x2="5" y2="20"/>
+      <polyline class="a" points="3.6 4.4 5 3 6.4 4.4"/>
+    </g>
+    <polygon class="c" points="15 2.7 15 14.2 5 20 5 8.5 15 2.7"/>
+    <polygon class="d" points="15 2.7 15 14.2 25 20 25 8.5 15 2.7"/>
+    <polygon class="e" points="5 20 15 14.2 25 20 15 25.8 5 20"/>
+  </g>
+</svg>

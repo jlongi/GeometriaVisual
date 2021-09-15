@@ -1,0 +1,120 @@
+﻿<APP>El horizonte de una loseta</APP>
+
+<AUX>
+_escala_=60.175370274079
+_Ox_=176.4949
+_Oy_=72.9653
+_nNOG_=19
+_pasos_=4
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=109
+show_E2=1
+show_E3=0
+proyectiva=1
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0128 ¦ -0.9807 ¦ 0.195
+0.9999 ¦ 0.0131 ¦ 0
+-0.0025 ¦ 0.195 ¦ 0.9808
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-7.527909716847,0.720345141577,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-6.670250377639,-1.008356302777,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_103:=newS(P_101,P_102,fuerte,1,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',-5.632130911347,1.403553518387,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',-4.265268932927,0.525548447813,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_106:=newS(P_104,P_105,fuerte,1,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ '' ¦ ''
+'L_107:=newS(P_102,P_105,fuerte,1,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
+'L_108:=newS(P_101,P_104,fuerte,1,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
+'L_109:=newLine2D(P_102,P_105,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_110:=newLine2D(P_101,P_104,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_111:=newLine2D(P_102,P_101,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_112:=newLine2D(P_105,P_104,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_113:=newMeetLL2D('','',L_110,L_109,'')' ¦ 'rojo' ¦ 3 ¦ 'X' ¦ ''
+'P_114:=newMeetLL2D('','',L_111,L_112,'')' ¦ 'azul_descartes' ¦ 3 ¦ 'Y' ¦ ''
+'L_115:=newLine2D(P_114,P_113,fuerte,1,'')' ¦ 'morado' ¦ 2 ¦ '' ¦ ''
+'T_116:=newTvsL(P_101,P_104,P_102,L_115,fuerte,'')' ¦ 'rosa' ¦ 2 ¦ '' ¦ ''
+'T_117:=newTvsL(P_105,P_104,P_102,L_115,fuerte,'')' ¦ 'rosa' ¦ 2 ¦ '' ¦ ''
+'L_118:=newLine2D(P_102,P_104,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'P_119:=newMeetLL2D('','',L_115,L_118,'')' ¦ 'naranja_strong' ¦ 2 ¦ 'D' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>117</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Dado un cuadrado en perspectiva...</TEXT>
+<HCOLS>0,1,0,0,0,0,1,1,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>119</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,5,0,0,0,0,1,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>117</NOG>
+<SPACE>TR</SPACE>
+<TEXT>se encuentran los puntos de fuga H ‟infinito horizontal” y V ‟infinito vertical” donde se intersectan los lados opuestos de la lozeta. El horizonte es la línea que pasa por ellos.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>119</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        fill: #467cd9;
+      }
+    </style>
+  </defs>
+  <title>topic-edit-layout-left-top</title>
+  <g>
+    <rect class="a" x="3" y="5" width="24" height="20"/>
+    <line class="a" x1="17" y1="9" x2="24" y2="9"/>
+    <line class="a" x1="17" y1="13" x2="24" y2="13"/>
+    <line class="a" x1="17" y1="17" x2="24" y2="17"/>
+    <line class="a" x1="17" y1="21" x2="24" y2="21"/>
+    <line class="a" x1="6" y1="17" x2="13" y2="17"/>
+    <line class="a" x1="6" y1="21" x2="13" y2="21"/>
+    <rect class="b" x="5" y="8" width="9" height="6"/>
+  </g>
+</svg>

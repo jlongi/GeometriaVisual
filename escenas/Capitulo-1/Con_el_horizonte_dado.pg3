@@ -1,0 +1,165 @@
+﻿<APP>Cuadrícula con el horizonte dado</APP>
+
+<AUX>
+_escala_=39.806609394686
+_Ox_=11.7927
+_Oy_=-9.5529
+_nNOG_=26
+_pasos_=6
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0866 ¦ -0.9924 ¦ 0.0869
+0.9962 ¦ 0.0869 ¦ -0.0001
+-0.0075 ¦ 0.0866 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-9.044799367559,3.670813126705,0,'',morado,0,'')' ¦ 'morado' ¦ 0 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',8.192656813138,3.820868401795,0,'',morado,0,'')' ¦ 'morado' ¦ 0 ¦ '' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'morado' ¦ 2 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',-2.422741299235,-1.299232113959,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',-0.883952175178,-0.510011478251,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',-3.419625314625,-0.22269296949,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_107:=newSvsL(P_104,P_105,L_103,fuerte,1,'')' ¦ 'rojo' ¦ 3 ¦ '' ¦ ''
+'L_108:=newSvsL(P_104,P_106,L_103,fuerte,1,'')' ¦ 'azul_descartes' ¦ 3 ¦ '' ¦ ''
+'L_109:=newLine2D(P_104,P_105,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'L_110:=newLine2D(P_104,P_106,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_111:=newMeetLL2D('','',L_110,L_103,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ 'Y' ¦ ''
+'P_112:=newMeetLL2D('','',L_103,L_109,'')' ¦ 'rojo_strong' ¦ 3 ¦ 'X' ¦ ''
+'L_113:=newLine2D(P_106,P_112,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_114:=newLine2D(P_105,P_111,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_113,L_114,'')' ¦ 'fuerte' ¦ 3 ¦ '' ¦ ''
+'L_116:=newLine2D(P_115,P_104,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'P_117:=newMeetLL2D('','',L_103,L_116,'')' ¦ 'naranja_strong' ¦ 3 ¦ 'D' ¦ ''
+'P_118:=newHarmonicReflection(104,115,117,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'P_119:=newHarmonicReflection(115,118,117,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'P_120:=newHarmonicReflection(115,104,117,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'L_121:=newLine2D(P_119,P_112,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_122:=newLine2D(P_112,P_118,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_123:=newLine2D(P_120,P_112,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_124:=newLine2D(P_120,P_111,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_125:=newLine2D(P_118,P_111,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_126:=newLine2D(P_119,P_111,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>108</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Si se fija al horizonte, con tres puntos fuera de él basta para construir una cuadrícula.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>112</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Se escoge a uno de los puntos como "origen".
+De él se trazan los ejes que nos dan puntos al infinito (en el horizonte) "H" (infinito horizontal) y "V" (infinito vertical).
+
+paso 12</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>115</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Al trazar "paralelas" a los ejes, se obtiene un cuadrado básico.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>117</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Y se procede como en el caso anterior:
+
+Trazando dos diagonales...
+
+paso 18</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>120</NOG>
+<SPACE>TR</SPACE>
+<TEXT>podemos aumentar la cuadrícula "en escalerita" hacía adelante y hacía atrás, tanto como se quiera.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>126</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

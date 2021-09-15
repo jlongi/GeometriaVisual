@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #467cd9;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>topic-step-next</title>
+  <polyline class="a" points="12.3 20.7 18 15 12.3 9.3"/>
+</svg>

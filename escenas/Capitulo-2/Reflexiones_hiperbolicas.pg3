@@ -1,0 +1,110 @@
+﻿<APP>El plano hiperbólico: puntos, líneas y reflexiones</APP>
+
+<AUX>
+_escala_=50.1539
+_Ox_=-36.9821
+_Oy_=-0.6241
+_nNOG_=24
+_pasos_=3
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0864 ¦ -0.9925 ¦ 0.0867
+0.9962 ¦ 0.0867 ¦ -0.0001
+-0.0074 ¦ 0.0864 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-2.271798481075,-2.07364515601,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-2.471404679796,1.115929597698,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',-1.387892816112,1.518961699489,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',1.871836453197,0.3824772578,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',0.043674425319,-1.885102504092,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+'C_106:=newConic5Pts(P_101,P_102,P_103,P_104,P_105,'')' ¦ 'naranja' ¦ 2 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('','',1.161088485808,-1.255563149308,0,'106',rojo_strong,3,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
+'P_108:=newCnstrGCtrl3D('','',-1.299788763882,1.538154618084,0,'106',rojo_strong,3,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
+'L_109:=newLine2D(P_107,P_108,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_110:=newPole(L_109,C_106,'')' ¦ 'rojo_strong' ¦ 4 ¦ 'Q' ¦ ''
+'L_111:=newLine2D(P_107,P_110,fuerte,1,'')' ¦ 'rojo_soft' ¦ 3 ¦ '' ¦ ''
+'L_112:=newLine2D(P_110,P_108,fuerte,1,'')' ¦ 'rojo_soft' ¦ 3 ¦ '' ¦ ''
+'L_113:=newS(P_108,P_107,fuerte,1,'')' ¦ 'rojo' ¦ 4 ¦ 'q' ¦ ''
+'P_114:=newCnstrGCtrl3D('','',-0.619054907049,0.765349606807,0,'113',gris_descartes,2,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
+'L_115:=newLine2D(P_114,P_110,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+'P_116:=newMeetLEq('','',L_115,C_106,0,-1,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
+'C_117:=newConic5Pts(P_103,P_102,P_101,P_105,P_104,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+'P_118:=newMeetLEq('','',L_115,C_117,1,-1,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
+'L_119:=newS(P_116,P_118,fuerte,1,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
+'C_120:=newCurve(L_119,P_114,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+'C_121:=newCurve(L_115,P_114,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_122:=newCnstrGCtrl3D('X','',-0.783924876694,-1.348820230065,0,'',fuerte,3,'')' ¦ 'fuerte' ¦ 3 ¦ 'X' ¦ ''
+'P_123:=newHarmonicReflection(122,110,109,'')' ¦ 'fuerte' ¦ 2 ¦ 'X′' ¦ ''
+'L_124:=newS(P_122,P_123,fuerte,1,'')' ¦ 'verde_soft' ¦ 3 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>113</NOG>
+<SPACE>BL</SPACE>
+<TEXT></TEXT>
+<HCOLS>2,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>121</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Sea \${P} un punto adentro. Su línea Polar (morada), \${λ}, respecto a la cónica se obtiene con la herramienta Armonía seleccionando primero a la cónica Γ y luego, arrastrando hacia \${P}.
+
+Observa que para \${P} adentro de la elipse, su línea polar no la toca (está afuera) y que cuando sacas a \${P}, se cruza con su línea polar en la curva Γ, y ya con \${P} afuera, su línea polar toca al interior de la elipse y a ella la corta en dos puntos. (Para lo que sigue, supondremos que \${P} está afuera).</TEXT>
+<HCOLS>3,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>124</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Cuando P está afuera, su línea polar corta a Γ en dos puntos y las líneas polares a ellos son las tangentes que pasan por P.</TEXT>
+<HCOLS>3,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

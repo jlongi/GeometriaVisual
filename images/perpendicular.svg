@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" width="61" height="51" viewBox="100 100 61 51">
+
+<g stroke-linecap="round">
+	<path stroke="#878787" stroke-opacity="1" stroke-width="1" d="M 704 0 L 0 171"/>
+	<path stroke="#2daae4" stroke-opacity="1" stroke-width="2" d="M 260 704 L 89 0"/>
+	<circle cx="117" cy="114" r="5" stroke="#878787" stroke-opacity="1" stroke-width="1" fill="none"/>
+	<circle cx="117" cy="114" r="3" fill="#878787" fill-opacity="1"/>
+	<circle cx="123.3" cy="141" r="3.5" fill="#2daae4" fill-opacity="1"/>
+</g>
+
+</svg>
+

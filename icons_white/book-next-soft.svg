@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.25;
+      }
+
+      .b, .c {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        stroke: #000;
+      }
+
+      .c {
+        stroke: #467cd9;
+      }
+    </style>
+  </defs>
+  <title>book-next-soft</title>
+  <g class="a">
+    <polyline class="b" points="11 38 29 20 11 2"/>
+    <polyline class="c" points="11 28 19 20 11 12"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .b, .d {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .c, .d {
+        fill: #467cd9;
+      }
+
+      .d {
+        stroke: #467cd9;
+      }
+    </style>
+  </defs>
+  <title>audio-rewind-soft</title>
+  <g class="a">
+    <g>
+      <line class="b" x1="15" y1="27" x2="21" y2="27"/>
+      <line class="b" x1="18" y1="24" x2="18" y2="27"/>
+      <path class="b" d="M25,14v3a7,7,0,0,1-7,7h0a7,7,0,0,1-7-7V14"/>
+      <rect class="b" x="14" y="3" width="8" height="18" rx="4" ry="4"/>
+    </g>
+    <g>
+      <rect class="c" x="2.5" y="2.5" width="2" height="9" rx="1" ry="1"/>
+      <polygon class="d" points="4 7 10 11 10 3 4 7"/>
+    </g>
+  </g>
+</svg>

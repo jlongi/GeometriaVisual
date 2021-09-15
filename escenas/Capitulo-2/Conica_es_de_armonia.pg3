@@ -1,0 +1,85 @@
+﻿<APP>Las curvas cónicas son de armonía</APP>
+
+<AUX>
+_escala_=48
+_Ox_=4.1322
+_Oy_=14.3109
+_nNOG_=33
+_pasos_=1
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=146.4086
+show_E2=0
+show_E3=1
+planoxy=1
+caja=1
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+-0.0446 ¦ -0.9922 ¦ 0.1162
+0.999 ¦ -0.044 ¦ 0.0073
+-0.0022 ¦ 0.1164 ¦ 0.9932
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',0.090401785714,0.432291666667,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'C_102:=newCircle2D(P_101,'3.3052420722433804',fuerte,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'C_103:=newCircleCP2D(P_101,P_101,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',3.391950961284,0.588490890154,0,C_102,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_105:=newLine2D(P_101,P_104,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_106:=newPerp2D(L_105,P_101,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_107:=newMeetLEq('','',L_105,C_102,1,-1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'P_108:=newMeetLEq('','',L_106,C_102,0,-1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_109:=newMeetLEq('','',L_106,C_102,1,-1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'L_110:=newS(P_108,P_109,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_111:=newS(P_107,P_104,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_112:=newCnstrGCtrl3D('Z','',2.712559266088,2.444483333544,0,C_102,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ 'Z' ¦ ''
+'T_113:=newT(P_107,P_108,P_109,gris_descartes_soft,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_114:=newPerp3D(T_113,P_101,amarillo_oscuro,1,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_115:=newCnstrGCtrl3D('','',0.090401785714,0.432291666667,7.540893656564,'114',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_116:=newLine2D(P_115,P_112,verde_soft,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'C_117:=newCurve(L_116,P_112,'')' ¦ 'verde_soft' ¦ 1 ¦ '' ¦ ''
+'P_118:=newCnstrGCtrl3D('','',-6.568328812152,-0.028078302921,0.497414019528,'',naranja_soft,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'P_119:=newCnstrGCtrl3D('','',6.746788545422,-4.61671199341,2.497196264665,'',naranja_soft,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'P_120:=newCnstrGCtrl3D('','',4.242280085708,4.243315025472,6.974924831089,'',naranja_soft,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'T_121:=newT(P_118,P_119,P_120,naranja_soft,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'P_122:=newMeetLT('','',L_116,T_121,'')' ¦ 'fuerte' ¦ 1 ¦ 'Z′' ¦ ''
+'L_123:=newLine2D(P_108,P_115,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_124:=newLine2D(P_109,P_115,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_125:=newLine2D(P_107,P_115,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_126:=newLine2D(P_104,P_115,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_127:=newMeetLT('','',L_125,T_121,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_128:=newMeetLT('','',L_126,T_121,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_129:=newMeetLL2D('','',L_110,L_123,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_130:=newMeetLT('','',L_123,T_121,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_131:=newMeetLT('','',L_124,T_121,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'C_132:=newCurve(P_122,P_112,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'C_133:=newCurve(P_122,P_112,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>133</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>1</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>1</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>
