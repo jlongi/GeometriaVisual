@@ -35,14 +35,14 @@ bg_img_amp=1
 'P_104:=newCnstrGCtrl3D('','',1.871836453197,0.3824772578,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
 'P_105:=newCnstrGCtrl3D('','',0.043674425319,-1.885102504092,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
 'C_106:=newConic5Pts(P_101,P_102,P_103,P_104,P_105,'')' ¦ 'naranja' ¦ 2 ¦ '' ¦ ''
-'P_107:=newCnstrGCtrl3D('','',1.161088485808,-1.255563149308,0,'106',rojo_strong,3,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
-'P_108:=newCnstrGCtrl3D('','',-1.299788763882,1.538154618084,0,'106',rojo_strong,3,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('','',1.161088485808,-1.255563149308,0,106,rojo_strong,3,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
+'P_108:=newCnstrGCtrl3D('','',-1.299788763882,1.538154618084,0,106,rojo_strong,3,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
 'L_109:=newLine2D(P_107,P_108,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
 'P_110:=newPole(L_109,C_106,'')' ¦ 'rojo_strong' ¦ 4 ¦ 'Q' ¦ ''
 'L_111:=newLine2D(P_107,P_110,fuerte,1,'')' ¦ 'rojo_soft' ¦ 3 ¦ '' ¦ ''
 'L_112:=newLine2D(P_110,P_108,fuerte,1,'')' ¦ 'rojo_soft' ¦ 3 ¦ '' ¦ ''
 'L_113:=newS(P_108,P_107,fuerte,1,'')' ¦ 'rojo' ¦ 4 ¦ 'q' ¦ ''
-'P_114:=newCnstrGCtrl3D('','',-0.619054907049,0.765349606807,0,'113',gris_descartes,2,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
+'P_114:=newCnstrGCtrl3D('','',-0.619054907049,0.765349606807,0,L_113,gris_descartes,2,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
 'L_115:=newLine2D(P_114,P_110,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
 'P_116:=newMeetLEq('','',L_115,C_106,0,-1,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
 'C_117:=newConic5Pts(P_103,P_102,P_101,P_105,P_104,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
@@ -59,7 +59,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>113</NOG>
-<SPACE>BL</SPACE>
+<SPACE>TR</SPACE>
 <TEXT></TEXT>
 <HCOLS>2,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -75,7 +75,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>121</NOG>
-<SPACE>BL</SPACE>
+<SPACE>TR</SPACE>
 <TEXT>Sea \${P} un punto adentro. Su línea Polar (morada), \${λ}, respecto a la cónica se obtiene con la herramienta Armonía seleccionando primero a la cónica Γ y luego, arrastrando hacia \${P}.
 
 Observa que para \${P} adentro de la elipse, su línea polar no la toca (está afuera) y que cuando sacas a \${P}, se cruza con su línea polar en la curva Γ, y ya con \${P} afuera, su línea polar toca al interior de la elipse y a ella la corta en dos puntos. (Para lo que sigue, supondremos que \${P} está afuera).</TEXT>
@@ -93,7 +93,7 @@ Observa que para \${P} adentro de la elipse, su línea polar no la toca (está a
 
 <PASO>
 <NOG>124</NOG>
-<SPACE>BL</SPACE>
+<SPACE>TR</SPACE>
 <TEXT>Cuando P está afuera, su línea polar corta a Γ en dos puntos y las líneas polares a ellos son las tangentes que pasan por P.</TEXT>
 <HCOLS>3,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>

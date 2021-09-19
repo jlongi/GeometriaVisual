@@ -4,16 +4,16 @@
 _escala_=48
 _Ox_=0
 _Oy_=50
-_nNOG_=9
-_pasos_=1
+_nNOG_=16
+_pasos_=2
 E3.rot.x=0
 E3.rot.y=0
 E3.rot.z=0
 Ex.Oy=0
 show_E2=1
-show_E3=0
-planoxy=1
-caja=0
+show_E3=
+planoxy=
+caja=
 showFlechas=0
 bg_img=
 bg_img_x=0
@@ -23,21 +23,28 @@ bg_img_amp=1
 </AUX>
 
 <ROTAR>
-0.0868 ¦ -0.9924 ¦ 0.0872
-0.9962 ¦ 0.0872 ¦ 0
--0.0076 ¦ 0.0868 ¦ 0.9962
+0.0591 ¦ -0.9944 ¦ 0.0872
+0.9982 ¦ 0.0595 ¦ 0.0024
+-0.0076 ¦ 0.0869 ¦ 0.9962
 </ROTAR>
 
 <CONSTRUCTION>
 'P_101:=newCnstrGCtrl3D('','',-1.430431547619,-2.380208333333,0,'',fuerte,0,'')' ¦ 'fuerte' ¦ 0 ¦ '' ¦ ''
 'P_102:=newCnstrGCtrl3D('','',2.277901785714,4.703125,0,'',fuerte,0,'')' ¦ 'fuerte' ¦ 0 ¦ '' ¦ ''
-'L_103:=newLine2D(P_101,P_102,fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'e' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ 'e' ¦ ''
 'P_104:=newCnstrGCtrl3D('C','',-5.055431547619,3.557291666667,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'C' ¦ ''
-'P_105:=newCnstrGCtrl3D('X','',-0.034598214286,3.390625,0,'',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'X' ¦ ''
+'P_105:=newCnstrGCtrl3D('X','',0.226633144952,3.017718855487,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ 'X' ¦ ''
 'P_106:=newHarmonicReflection(105,104,103,'')' ¦ 'azul_descartes' ¦ 3 ¦ 'Y' ¦ ''
-'L_107:=newLine2D(P_104,P_105,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'L_108:=newS(P_105,P_106,azul_descartes_soft,3,'')' ¦ 'azul_descartes_soft' ¦ 4 ¦ '' ¦ ''
+'L_107:=newLine2D(P_104,P_105,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_108:=newS(P_105,P_106,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 4 ¦ '' ¦ ''
 'P_109:=newMeetLL2D('','',L_107,L_103,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_110:=newCnstrGCtrl3D('','',-0.17511649148,4.745632664622,0,'',morado,2,'')' ¦ 'morado' ¦ 2 ¦ '' ¦ ''
+'P_111:=newCnstrGCtrl3D('','',-0.458048487391,0.248129353105,0,'',morado,2,'')' ¦ 'morado' ¦ 2 ¦ '' ¦ ''
+'L_112:=newLine2D(P_110,P_111,morado,1,'')' ¦ 'morado' ¦ 2 ¦ 'x' ¦ ''
+'L_113:=newHarmonicReflection(112,104,103,'')' ¦ 'morado' ¦ 1 ¦ 'y' ¦ ''
+'P_114:=newHarmonicReflection(110,112,112,'')' ¦ 'morado' ¦ 1 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_112,L_103,'')' ¦ 'morado_strong' ¦ 3 ¦ '' ¦ ''
+'L_116:=newLine2D(P_115,P_104,gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
 </CONSTRUCTION>
 
 <PASOS>
@@ -54,6 +61,22 @@ bg_img_amp=1
 <LNGLN>0</LNGLN>
 <ANIM>0</ANIM>
 <FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>116</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA></CAJA>
+<PLANOXY></PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
 <EXPLORE>1</EXPLORE>
 <NOMBRES>1</NOMBRES>
 </PASO>

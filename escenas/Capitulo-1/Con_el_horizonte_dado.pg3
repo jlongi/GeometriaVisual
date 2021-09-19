@@ -79,7 +79,7 @@ bg_img_amp=1
 <NOG>112</NOG>
 <SPACE>TR</SPACE>
 <TEXT>Se escoge a uno de los puntos como "origen".
-De él se trazan los ejes que nos dan puntos al infinito (en el horizonte) "H" (infinito horizontal) y "V" (infinito vertical).
+De él se trazan los ejes que nos dan puntos al infinito (en el horizonte) "X" (infinito horizontal) y "Y" (infinito vertical).
 
 paso 12</TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
@@ -133,7 +133,7 @@ paso 18</TEXT>
 <PASO>
 <NOG>120</NOG>
 <SPACE>TR</SPACE>
-<TEXT>podemos aumentar la cuadrícula "en escalerita" hacía adelante y hacía atrás, tanto como se quiera.</TEXT>
+<TEXT>podemos aumentar la cuadrícula hacía adelante y hacía atrás, tanto como se quiera.</TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D>0</3D>

@@ -11,7 +11,7 @@ E3.rot.y=0
 E3.rot.z=0
 Ex.Oy=0
 show_E2=1
-show_E3=0
+show_E3=
 planoxy=1
 caja=0
 showFlechas=0
@@ -23,15 +23,15 @@ bg_img_amp=1
 </AUX>
 
 <ROTAR>
-0.0868 ¦ -0.9924 ¦ 0.0872
-0.9962 ¦ 0.0871 ¦ 0
+0.0591 ¦ -0.9944 ¦ 0.0872
+0.9982 ¦ 0.0595 ¦ 0.0024
 -0.0076 ¦ 0.0869 ¦ 0.9962
 </ROTAR>
 
 <CONSTRUCTION>
 'P_101:=newCnstrGCtrl3D('','',-4.620634030449,-2.980946497002,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
 'C_102:=newCircle2D(P_101,'3.2315851158697817',fuerte,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
-'P_103:=newCnstrGCtrl3D('','',-1.726159437799,-1.543880321207,0,'102',rojo_strong,2,'')' ¦ 'rojo_strong' ¦ 2 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',-1.726159437799,-1.543880321207,0,C_102,rojo_strong,2,'')' ¦ 'rojo_strong' ¦ 2 ¦ '' ¦ ''
 'L_104:=newS(P_101,P_103,fuerte,1,'')' ¦ 'rojo_strong' ¦ 2 ¦ '' ¦ ''
 'P_105:=newCnstrGCtrl3D('','',0.387355774718,2.058154528099,0,'',rosa_soft,1,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
 'P_106:=newCnstrGCtrl3D('','',3.109530651411,2.173646859625,0,'',rosa_soft,1,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
@@ -47,7 +47,7 @@ bg_img_amp=1
 'L_116:=newLine2D(P_110,P_106,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
 'L_117:=newLine2D(P_108,P_105,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
 'P_118:=newMeetLL2D('','',L_117,L_116,'')' ¦ 'rosa_strong' ¦ 2 ¦ '' ¦ ''
-'P_119:=newCnstrGCtrl3D('','',1.342123679211,1.679087281997,0,'117',fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_119:=newCnstrGCtrl3D('','',1.342123679211,1.679087281997,0,L_117,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
 'P_120:=newHarmonicReflection(119,105,108,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
 'L_121:=newLine2D(P_110,P_120,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
 'L_122:=newLine2D(P_119,P_106,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
@@ -116,7 +116,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>181</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso.</TEXT>
 <HCOLS>5,3,3,0,1,0,3,5,7,2</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -132,7 +132,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>124</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>2,4,0,0,0,0,0,0,0,3</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -148,7 +148,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>133</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>2,0,1,0,0,0,3,4,2,2</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -164,7 +164,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>134</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>2,0,0,0,0,0,0,0,0,2</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -180,7 +180,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>143</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>2,0,3,0,0,0,0,4,3,2</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -196,7 +196,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>181</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>7,1,0,0,1,0,1,0,0,2</HCOLS>
 <HOBJS>-1</HOBJS>

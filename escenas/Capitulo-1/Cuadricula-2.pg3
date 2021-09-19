@@ -51,40 +51,40 @@ bg_img_amp=1
 'P_119:=newMeetLL2D('','',L_115,L_118,'')' ¦ 'naranja_strong' ¦ 3 ¦ 'D' ¦ ''
 'L_120:=newLine2D(P_119,P_105,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
 'P_121:=newMeetLL2D('','',L_110,L_120,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
-'L_122:=newLine2D(P_121,P_114,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_122:=newLine2D(P_121,P_114,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
 'P_123:=newMeetLL2D('','',L_122,L_118,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
-'L_124:=newLine2D(P_123,P_113,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_124:=newLine2D(P_123,P_113,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
 'P_125:=newMeetLL2D('','',L_120,L_124,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
-'L_126:=newLine2D(P_125,P_114,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_126:=newLine2D(P_125,P_114,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
 'P_127:=newMeetLL2D('','',L_118,L_126,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
-'L_128:=newLine2D(P_127,P_113,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_128:=newLine2D(P_127,P_113,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
 'P_129:=newMeetLL2D('','',L_120,L_128,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
-'L_130:=newLine2D(P_129,P_114,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_130:=newLine2D(P_129,P_114,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
 'P_131:=newMeetLL2D('','',L_130,L_118,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
-'L_132:=newLine2D(P_131,P_113,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
-'L_133:=newLine2D(P_101,P_105,verde,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'L_132:=newLine2D(P_131,P_113,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_133:=newLine2D(P_101,P_105,fuerte,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
 'P_134:=newMeetLL2D('','',L_133,L_122,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
 'P_135:=newMeetLL2D('','',L_126,L_133,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
 'P_136:=newMeetLL2D('','',L_133,L_130,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
 'P_137:=newMeetLL2D('','',L_133,L_124,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
 'P_138:=newMeetLL2D('','',L_133,L_128,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
 'P_139:=newMeetLL2D('','',L_133,L_132,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
-'L_140:=newLine2D(P_134,P_113,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
-'L_141:=newLine2D(P_113,P_135,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
-'L_142:=newLine2D(P_136,P_113,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
-'L_143:=newLine2D(P_137,P_114,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
-'L_144:=newLine2D(P_114,P_138,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
-'L_145:=newLine2D(P_139,P_114,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_140:=newLine2D(P_134,P_113,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_141:=newLine2D(P_113,P_135,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_142:=newLine2D(P_136,P_113,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_143:=newLine2D(P_137,P_114,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_144:=newLine2D(P_114,P_138,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_145:=newLine2D(P_139,P_114,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
 'P_146:=newMeetLL2D('','',L_143,L_110,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
 'P_147:=newMeetLL2D('','',L_112,L_140,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
-'L_148:=newLine2D(P_146,P_147,verde,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'L_148:=newLine2D(P_146,P_147,fuerte,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
 'P_149:=newMeetLL2D('','',L_128,L_112,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
 'P_150:=newMeetLL2D('','',L_110,L_126,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
-'L_151:=newLine2D(P_149,P_150,verde,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'L_151:=newLine2D(P_149,P_150,fuerte,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
 'P_152:=newMeetLL2D('','',L_148,L_133,'')' ¦ 'verde' ¦ 3 ¦ 'D′' ¦ ''
-'L_153:=newLine2D(P_137,P_149,turquesa,1,'')' ¦ 'turquesa' ¦ 1 ¦ '' ¦ ''
-'L_154:=newLine2D(P_102,P_121,turquesa,1,'')' ¦ 'turquesa' ¦ 1 ¦ '' ¦ ''
-'L_155:=newLine2D(P_101,P_123,turquesa,1,'')' ¦ 'turquesa' ¦ 1 ¦ '' ¦ ''
+'L_153:=newLine2D(P_137,P_149,fuerte,1,'')' ¦ 'turquesa' ¦ 1 ¦ '' ¦ ''
+'L_154:=newLine2D(P_102,P_121,fuerte,1,'')' ¦ 'turquesa' ¦ 1 ¦ '' ¦ ''
+'L_155:=newLine2D(P_101,P_123,fuerte,1,'')' ¦ 'turquesa' ¦ 1 ¦ '' ¦ ''
 </CONSTRUCTION>
 
 <PASOS>
@@ -156,7 +156,7 @@ bg_img_amp=1
 <PASO>
 <NOG>145</NOG>
 <SPACE>BL</SPACE>
-<TEXT>Con rojo-azul, rojo-azul se extiende para el ootro lado (los negativos).</TEXT>
+<TEXT>Con la otra diagonal se encuentran nuevos puntos para crecer la cuadrícula en la otra dirección.</TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D>0</3D>
@@ -172,7 +172,7 @@ bg_img_amp=1
 <PASO>
 <NOG>155</NOG>
 <SPACE>BL</SPACE>
-<TEXT>Al trazar líneas con la misma pendiente (en el dibujo, 2 cuadros hacia H y 1 hacia V, que pdoríamos llamar la pendiente 2:1) todas ellas concurren en un punto del horizonte.
+<TEXT>Al trazar líneas con la misma pendiente (en el dibujo, 2 cuadros hacia X y 1 hacia Y, que pdoríamos llamar la pendiente 2:1) todas ellas concurren en un punto del horizonte.
 
 (Geo Proy)</TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>

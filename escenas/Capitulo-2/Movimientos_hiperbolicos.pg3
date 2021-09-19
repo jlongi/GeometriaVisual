@@ -38,7 +38,7 @@ bg_img_amp=1
 'P_107:=newCnstrGCtrl3D('O','',3.188296282552,0.340780759707,0,'',fuerte_strong,3,'')' ¦ 'fuerte_strong' ¦ 3 ¦ 'O' ¦ ''
 'P_108:=newCnstrGCtrl3D('','',-3.313791685465,-3.173139659045,0,'',gris_descartes,1,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
 'C_109:=newCircle2D(P_108,'0.7881756605338844',fuerte,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
-'P_110:=newCnstrGCtrl3D('','',-2.697144243558,-2.682255961773,0,C_109,rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'P_110:=newCnstrGCtrl3D('','',-2.697144243558,-2.682255961773,0,'109',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
 'L_111:=newS(P_110,P_108,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
 'L_112:=newParal2D(L_111,P_107,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
 'L_113:=newPolarLine(P_107,C_106,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
@@ -98,7 +98,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>116</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT></TEXT>
 <HCOLS>2,0,0,0,0,0,0,0,0,1</HCOLS>
 <HOBJS>108</HOBJS>
@@ -114,7 +114,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>121</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>3,0,0,4,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -130,7 +130,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>139</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>3,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -146,7 +146,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>163</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>2,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>108</HOBJS>
@@ -162,7 +162,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>163</NOG>
-<SPACE>BL</SPACE>
+<SPACE>BR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>0,2,2,0,2,0,2,0,0,1</HCOLS>
 <HOBJS>108</HOBJS>

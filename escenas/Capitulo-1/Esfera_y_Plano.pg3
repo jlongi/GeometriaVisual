@@ -23,8 +23,8 @@ bg_img_amp=1
 </AUX>
 
 <ROTAR>
--0.0835 ¦ -0.9726 ¦ 0.2171
-0.9913 ¦ -0.0589 ¦ 0.1176
+-0.2534 ¦ -0.9478 ¦ 0.1935
+0.962 ¦ -0.2259 ¦ 0.1533
 -0.1016 ¦ 0.225 ¦ 0.969
 </ROTAR>
 
@@ -59,7 +59,7 @@ bg_img_amp=1
 <LNGLN>0</LNGLN>
 <ANIM>1</ANIM>
 <FAMS>3</FAMS>
-<EXPLORE>0</EXPLORE>
+<EXPLORE>1</EXPLORE>
 <NOMBRES>1</NOMBRES>
 </PASO>
 

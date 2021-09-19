@@ -25,6 +25,9 @@ class DIBooks {
     this.page = document.getElementById("page");
     this.page_viewer = document.getElementById("page_viewer");
 
+    this.toc_btn = document.getElementById("toc_btn");
+
+
 
     // pages scroll
     let pages_scroll = document.getElementById("pages_scroll");
@@ -57,6 +60,7 @@ class DIBooks {
 
     this.getPG3position();
 
+    this.makeTOC();
     
 
     /**
@@ -100,6 +104,8 @@ class DIBooks {
       this.page.style.display = "none";
       this.page_viewer.style.display = "block";
 
+      this.toc_btn.style.display = "none";
+
       pages_container.scrollLeft = this.page_index*scroll_w -10;
       this.page_range.value = this.page_index;
     });
@@ -128,6 +134,8 @@ class DIBooks {
 
           this.page.style.display = "block";
           this.page_viewer.style.display = "none";
+
+          this.toc_btn.style.display = "block";
         }
       }
     });
@@ -316,6 +324,39 @@ class DIBooks {
     }
   }
 
+  /**
+   * 
+   */
+  makeTOC() {
+    let toc_container = document.getElementById("toc_container");
+    let toc_div = document.getElementById("toc");
+    
+    for (let i=0; i<toc_info.length; i++) {
+      let toc_entry = document.createElement("div");
+      toc_entry.setAttribute("class", "toc_" + toc_info[i].type);
+      toc_entry.innerHTML = `${toc_info[i].num}&nbsp;&nbsp;&nbsp;&nbsp;${toc_info[i].name.replace(/\\\\/g, " ").replace(/``/g, "“").replace(/''/g, "”")}<span class="toc_num">${toc_info[i].page}</span>`;
+      
+      toc_entry.addEventListener("click", (evt) => {
+        this.step = 0;
+        this.page_index = initial_page + toc_info[i].page -1;
+        this.setPageImage();
+        this.showPG3();
+        this.drawTextCover();
+        toc_container.style.display = "none";
+      });
+
+      toc_div.appendChild(toc_entry);
+    }
+
+    this.toc_btn.addEventListener("click", (evt) => {
+      if (getComputedStyle(toc_container).display == "none") {
+        toc_container.style.display = "block";
+      }
+      else {
+        toc_container.style.display = "none";
+      }
+    });
+  }
 
 
 

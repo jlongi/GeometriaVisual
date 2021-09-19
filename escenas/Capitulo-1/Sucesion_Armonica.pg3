@@ -67,8 +67,8 @@ bg_img_amp=1
 
 <PASO>
 <NOG>113</NOG>
-<SPACE>BR</SPACE>
-<TEXT>Luego se encuentra el ‟infinito diagonal” D.</TEXT>
+<SPACE>BL</SPACE>
+<TEXT></TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D>0</3D>
@@ -83,8 +83,8 @@ bg_img_amp=1
 
 <PASO>
 <NOG>117</NOG>
-<SPACE>BR</SPACE>
-<TEXT>Al trazar otra línea diagonal tenemos simetría entre los tres colores.</TEXT>
+<SPACE>BL</SPACE>
+<TEXT></TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D>0</3D>
@@ -99,7 +99,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>123</NOG>
-<SPACE>BR</SPACE>
+<SPACE>BL</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>0,0,0,0,0,0,4,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -115,7 +115,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>124</NOG>
-<SPACE>BR</SPACE>
+<SPACE>BL</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>4,0,0,0,0,0,0,0,1,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -131,7 +131,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>129</NOG>
-<SPACE>BR</SPACE>
+<SPACE>BL</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>4,0,0,0,0,0,0,0,1,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -147,7 +147,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>131</NOG>
-<SPACE>BR</SPACE>
+<SPACE>BL</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>4,0,0,0,0,0,0,0,1,0</HCOLS>
 <HOBJS>-1</HOBJS>

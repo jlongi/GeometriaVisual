@@ -167,7 +167,7 @@ bg_img_amp=1
 <PASO>
 <NOG>130</NOG>
 <SPACE>TR</SPACE>
-<TEXT>Texto de este paso</TEXT>
+<TEXT></TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>
@@ -183,7 +183,7 @@ bg_img_amp=1
 <PASO>
 <NOG>141</NOG>
 <SPACE>TR</SPACE>
-<TEXT>Texto de este paso</TEXT>
+<TEXT></TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>
@@ -199,7 +199,7 @@ bg_img_amp=1
 <PASO>
 <NOG>183</NOG>
 <SPACE>TR</SPACE>
-<TEXT>Texto de este paso</TEXT>
+<TEXT></TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>
@@ -215,7 +215,7 @@ bg_img_amp=1
 <PASO>
 <NOG>183</NOG>
 <SPACE>TR</SPACE>
-<TEXT>Texto de este paso</TEXT>
+<TEXT></TEXT>
 <HCOLS>0,3,1,0,1,0,3,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>
@@ -231,7 +231,7 @@ bg_img_amp=1
 <PASO>
 <NOG>199</NOG>
 <SPACE>TR</SPACE>
-<TEXT>Texto de este paso</TEXT>
+<TEXT></TEXT>
 <HCOLS>1,7,5,0,7,0,7,1,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>

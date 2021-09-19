@@ -1,5 +1,3 @@
-var initial_page = 0;
-
 /**
  * 
  */
@@ -88,8 +86,10 @@ function readAux() {
       // se obtiene una referencia para determinar si la pagina tiene o no un interactivo
       else if (content[i].match(/\\newlabel{Escena_/)) {
         let idx = content[i].match(/.*?}{ on input line \d+}}{(\d+)/);
+        let name = content[i].match(/newlabel{Escena_(.+?)_EnPagina:}/);
+
         if (idx && idx[1]) {
-          visible[parseInt(idx[1])+initial_page] = true;
+          visible[parseInt(idx[1])+initial_page] = name;
         }
       }
 
@@ -103,6 +103,31 @@ function readAux() {
           }
         }
       }
+
+      // se obtiene la informacion de la tabla de contenidos
+      else if (content[i].match(/^\\@writefile{toc}/)) {
+        let res = content[i].match(/^\\@writefile{toc}{\\contentsline {(.+?)}{\\numberline {(.+?)}(.+?)}{(.+?)}/);
+
+        if (res) {
+          toc_info.push({
+            type: res[1],
+            num:  res[2],
+            name: res[3],
+            page: parseInt(res[4])
+          });
+        }
+        else {
+          res = content[i].match(/^\\@writefile{toc}{\\contentsline {(.+?)}{(.+?)\\hspace\s+{.+?}(.+?)}{(.+?)}/);
+
+          toc_info.push({
+            type: res[1],
+            num:  res[2],
+            name: res[3],
+            page: parseInt(res[4])
+          });
+        }
+      }
+      
     }
 
     num_pages = parseInt(num_pages) +2;
@@ -131,7 +156,7 @@ function readAux() {
   }
 
   function marksToSteps(inter, num_pages) {
-// console.log(inter)
+// console.warn(inter)
     let pages = [];
     let page_left = 74;
     let page_right = 540;
@@ -144,22 +169,24 @@ function readAux() {
     let next;
 
     for (let inter_i=0; inter_i<inter.length; inter_i++) {
-    //for (let inter_i=0; inter_i<4; inter_i++) {
-    //for (let inter_i=8; inter_i<10; inter_i++) {
+    // for (let inter_i=0; inter_i<4; inter_i++) {
+    // for (let inter_i=8; inter_i<10; inter_i++) {
       scene = inter[inter_i];
 
       if (scene) {
-        // let name = "'" + scene.name + "'";
         let name = scene.name;
         step_idx = 1;
 
-// console.log(name, scene.steps.length)
+// console.warn(name, scene.steps.length)
 
         //
         for (let i=0; i<scene.steps.length; i++) {
           current = scene.steps[i];
           next = scene.steps[i+1];
 
+// console.warn("current", current)
+// console.warn("next", next)
+          
           if (pages[current.page] == undefined) {
             pages[current.page] = {
               name : name,
@@ -168,9 +195,16 @@ function readAux() {
               steps : {}
             };
           }
+          else {
+            if (pages[current.page].name != name) {
+              step_idx = 1;
+              pages[current.page].name = name;
+              pages[current.page].ini = step_idx;
+              pages[current.page].fin = step_idx;
+            }
+// console.warn("---", pages[current.page].name, "|", name)
+          }
           
-          // console.log("current", current)
-          // console.log("next", next)
 
           // no es la ultima marca
           if (next) {
@@ -181,7 +215,7 @@ function readAux() {
 
               // estan en la misma columna
               if (Math.abs(current.x - next.x) < 30) {
-//                console.log("en la misma columna");
+//                console.warn("en la misma columna");
 
                 if (!pages[current.page].steps[i+2]) {
                   pages[current.page].steps[i+2] = [];
@@ -195,7 +229,7 @@ function readAux() {
               }
               // estan en columnas diferentes
               else {
-                // console.log("en columnas diferentes", current.page, i+2);
+                // console.warn("en columnas diferentes", current.page, i+2);
 
                 if (!pages[current.page].steps[i+2]) {
                   pages[current.page].steps[i+2] = [];
@@ -216,13 +250,13 @@ function readAux() {
             }
             // las marcas estan en paginas diferentes
             else {
-              // console.log("en paginas diferentes");
+              // console.warn("en paginas diferentes");
 
               let diff = next.page - current.page;
               if (diff == 1) {
                 step_idx++;
 
-                // console.log("terminacion de pagina consecutiva", current.page, i+2);
+                // console.warn("terminacion de pagina consecutiva", current.page, i+2);
 
                 // condicion para eliminar rectangulos pequeños
                 if (current.x < 400) {
@@ -267,12 +301,12 @@ function readAux() {
                 }
               }
               else {
-                // console.log("terminacion de pagina con espacios");
+                // console.warn("terminacion de pagina con espacios");
                 step_idx++;
                 pages[current.page].fin = step_idx;
 
                 for (let j=0; j<diff; j++) {
-                  // console.log("pagina ", current.page+j);
+                  // console.warn("pagina ", current.page+j);
                   if (j==0) {
                     if (!pages[current.page].steps[i+2]) {
                       pages[current.page].steps[i+2] = [];
@@ -306,7 +340,7 @@ function readAux() {
           }
           // es la ultima marca
           else {
-            // console.log("la ultima marca", current.page);
+            // console.warn("la ultima marca", current.page);
 
             if (!pages[current.page].steps[i+2]) {
               pages[current.page].steps[i+2] = [];
@@ -333,8 +367,8 @@ function readAux() {
 
       }// end if
     }// end for interactives
-// console.log("+++")
-// console.log(pages)
+// console.warn("+++")
+// console.warn(pages)
 
     for (let i=1; i<num_pages; i++) {
       if (pages[i]) {
@@ -365,7 +399,7 @@ function readAux() {
       }
     }
 
-    console.log(output)
+    // console.warn(output)
   }
 }
 
@@ -374,7 +408,7 @@ function readAux() {
  */
 function loadText(filename) {
   if (filename) {
-    console.log("leyendo: ", filename);
+    console.warn("leyendo: ", filename);
 
     let response = null;
     let xhr = new XMLHttpRequest();

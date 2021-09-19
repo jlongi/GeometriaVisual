@@ -35,11 +35,11 @@ bg_img_amp=1
 'P_104:=newCnstrGCtrl3D('','',1.871836453197,0.3824772578,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
 'P_105:=newCnstrGCtrl3D('','',0.043674425319,-1.885102504092,0,'',gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
 'C_106:=newConic5Pts(P_101,P_102,P_103,P_104,P_105,'')' ¦ 'naranja' ¦ 2 ¦ '' ¦ ''
-'P_107:=newCnstrGCtrl3D('A','',0.499090652202,0.986254455806,0,'',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ 'A' ¦ ''
-'P_108:=newCnstrGCtrl3D('','',-2.060490983734,-2.113002282418,0,106,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('A','',-0.96209807491,0.23103331595,0,'',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ 'A' ¦ ''
+'P_108:=newCnstrGCtrl3D('','',0.923996522663,-1.435829205646,0,'106',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
 'L_109:=newS(P_107,P_108,fuerte,1,'')' ¦ 'rojo' ¦ 3 ¦ '' ¦ ''
-'P_110:=newCnstrGCtrl3D('B','',0.99959680949,-0.929808573217,0,'',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'B' ¦ ''
-'P_111:=newCnstrGCtrl3D('','',1.905865326279,0.02651504363,0,106,azul_descartes_strong,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'P_110:=newCnstrGCtrl3D('B','',1.475714484616,-0.699958661087,0,'',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'B' ¦ ''
+'P_111:=newCnstrGCtrl3D('','',1.682090633309,0.790128780403,0,'106',azul_descartes_strong,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ '' ¦ ''
 'L_112:=newS(P_110,P_111,fuerte,1,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ '' ¦ ''
 'L_113:=newLine2D(P_107,P_110,fuerte,1,'')' ¦ 'amarillo_oscuro_strong' ¦ 1 ¦ '' ¦ ''
 'P_114:=newPole(L_113,C_106,'')' ¦ 'amarillo_oscuro_strong' ¦ 3 ¦ '' ¦ ''
@@ -62,7 +62,7 @@ bg_img_amp=1
 'P_131:=newPole(L_130,C_106,'')' ¦ 'gris_descartes_strong' ¦ 3 ¦ '' ¦ ''
 'P_132:=newMeetLL2D('','',L_121,L_130,'')' ¦ 'fuerte_strong' ¦ 3 ¦ 'O' ¦ ''
 'L_133:=newPolarLine(P_132,C_106,'')' ¦ 'fuerte' ¦ 3 ¦ '' ¦ ''
-'P_134:=newCnstrGCtrl3D('','',2.990280614595,-0.195985704509,0,L_133,turquesa,2,'')' ¦ 'turquesa' ¦ 2 ¦ '' ¦ ''
+'P_134:=newCnstrGCtrl3D('','',2.590842812509,-2.503351251118,0,'133',turquesa,2,'')' ¦ 'turquesa' ¦ 2 ¦ '' ¦ ''
 'L_135:=newLine2D(P_134,P_132,fuerte,1,'')' ¦ 'turquesa' ¦ 2 ¦ 'x' ¦ ''
 'P_136:=newPole(L_135,C_106,'')' ¦ 'turquesa' ¦ 3 ¦ 'X' ¦ ''
 'L_137:=newLine2D(P_107,P_132,fuerte,1,'')' ¦ 'turquesa_soft' ¦ 1 ¦ 'a' ¦ ''
@@ -74,7 +74,7 @@ bg_img_amp=1
 'C_143:=newCurve(P_139,P_134,'')' ¦ 'verde_strong' ¦ 2 ¦ '' ¦ ''
 'C_144:=newCurve(L_142,P_134,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
 'L_145:=newS(P_140,P_107,fuerte,1,'')' ¦ 'rojo_soft' ¦ 2 ¦ '' ¦ ''
-'P_146:=newCnstrGCtrl3D('','',2.958328722376,0.270929716024,0,'133',rojo_soft,2,'')' ¦ 'rojo_soft' ¦ 2 ¦ '' ¦ ''
+'P_146:=newCnstrGCtrl3D('','',3.005809593958,-0.577910874339,0,L_133,rojo_soft,2,'')' ¦ 'rojo_soft' ¦ 2 ¦ '' ¦ ''
 'L_147:=newS(P_134,P_146,fuerte,1,'')' ¦ 'rojo_soft' ¦ 2 ¦ '' ¦ ''
 </CONSTRUCTION>
 
@@ -82,7 +82,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>112</NOG>
-<SPACE>TL</SPACE>
+<SPACE>TR</SPACE>
 <TEXT></TEXT>
 <HCOLS>2,2,0,0,0,0,2,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -98,7 +98,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>124</NOG>
-<SPACE>TL</SPACE>
+<SPACE>TR</SPACE>
 <TEXT></TEXT>
 <HCOLS>2,0,0,0,0,0,4,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -114,7 +114,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>131</NOG>
-<SPACE>TL</SPACE>
+<SPACE>TR</SPACE>
 <TEXT></TEXT>
 <HCOLS>3,1,0,4,0,0,0,0,0,1</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -130,7 +130,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>132</NOG>
-<SPACE>TL</SPACE>
+<SPACE>TR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>2,0,0,4,0,0,2,0,1,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -146,7 +146,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>142</NOG>
-<SPACE>TL</SPACE>
+<SPACE>TR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>2,2,0,4,0,0,2,0,3,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -162,7 +162,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>147</NOG>
-<SPACE>TL</SPACE>
+<SPACE>TR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>2,2,0,4,0,0,2,2,3,0</HCOLS>
 <HOBJS>-1</HOBJS>
@@ -173,7 +173,7 @@ bg_img_amp=1
 <ANIM>0</ANIM>
 <FAMS>3</FAMS>
 <EXPLORE>1</EXPLORE>
-<NOMBRES>0</NOMBRES>
+<NOMBRES>1</NOMBRES>
 </PASO>
 
 </PASOS>

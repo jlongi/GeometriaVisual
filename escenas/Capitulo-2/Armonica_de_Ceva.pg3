@@ -24,8 +24,8 @@ bg_img_amp=1
 
 <ROTAR>
 0.0868 ¦ -0.9924 ¦ 0.0872
-0.9962 ¦ 0.0872 ¦ 0
--0.0076 ¦ 0.0868 ¦ 0.9962
+0.9962 ¦ 0.0871 ¦ 0
+-0.0076 ¦ 0.0869 ¦ 0.9962
 </ROTAR>
 
 <CONSTRUCTION>
@@ -35,15 +35,15 @@ bg_img_amp=1
 'P_104:=newCnstrGCtrl3D('','',6.378692421954,-2.09142390934,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
 'L_105:=newLine2D(P_102,P_104,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
 'L_106:=newLine2D(P_104,P_101,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
-'P_107:=newCnstrGCtrl3D('','',0.506455176308,1.63975769666,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
-'L_108:=newLine2D(P_101,P_107,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
-'L_109:=newLine2D(P_104,P_107,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
-'L_110:=newLine2D(P_107,P_102,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('','',0.300215698462,1.227278740968,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_108:=newLine2D(P_101,P_107,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'L_109:=newLine2D(P_104,P_107,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'L_110:=newLine2D(P_107,P_102,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
 'P_111:=newMeetLL2D('','',L_110,L_106,'')' ¦ 'fuerte' ¦ 3 ¦ '' ¦ ''
 'P_112:=newMeetLL2D('','',L_103,L_109,'')' ¦ 'fuerte' ¦ 3 ¦ '' ¦ ''
 'P_113:=newMeetLL2D('','',L_105,L_108,'')' ¦ 'fuerte' ¦ 3 ¦ '' ¦ ''
-'L_114:=newLine2D(P_113,P_111,gris_descartes,1,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
-'L_115:=newLine2D(P_113,P_112,gris_descartes,1,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_114:=newLine2D(P_113,P_111,fuerte,1,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_115:=newLine2D(P_113,P_112,fuerte,1,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
 'P_116:=newHarmonicReflection(112,104,114,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
 'P_117:=newHarmonicReflection(111,102,115,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
 'C_118:=newConic5Pts(P_111,P_112,P_117,P_113,P_116,'')' ¦ 'naranja' ¦ 2 ¦ '' ¦ ''
@@ -53,7 +53,7 @@ bg_img_amp=1
 
 <PASO>
 <NOG>118</NOG>
-<SPACE>BR</SPACE>
+<SPACE>TL</SPACE>
 <TEXT></TEXT>
 <HCOLS>1,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>

@@ -4,16 +4,16 @@
 _escala_=48
 _Ox_=-47
 _Oy_=116
-_nNOG_=35
-_pasos_=7
+_nNOG_=22
+_pasos_=8
 E3.rot.x=0
 E3.rot.y=0
 E3.rot.z=0
 Ex.Oy=0
 show_E2=1
-show_E3=0
-planoxy=1
-caja=0
+show_E3=
+planoxy=
+caja=
 showFlechas=0
 bg_img=
 bg_img_x=0
@@ -50,20 +50,7 @@ bg_img_amp=1
 'T_119:=newTvsL(P_101,P_102,P_103,L_116,fuerte,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
 'T_120:=newTvsL(P_104,P_102,P_103,L_116,fuerte,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
 'T_121:=newTvsL(P_104,P_101,P_102,L_114,fuerte,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'T_122:=newTvsL(P_103,P_101,P_102,L_114,fuerte,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'P_123:=newMeetLL2D('','',L_107,L_114,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'P_124:=newMeetLL2D('','',L_116,L_105,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'L_125:=newLine2D(P_123,P_124,fuerte,1,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
-'P_126:=newMeetLL2D('','',L_108,L_114,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'L_127:=newLine2D(P_124,P_126,fuerte,1,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
-'P_128:=newMeetLL2D('','',L_116,L_106,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'L_129:=newLine2D(P_126,P_128,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
-'L_130:=newLine2D(P_128,P_123,fuerte,1,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
-'T_131:=newTvsL(P_111,P_113,P_112,L_125,fuerte,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
-'T_132:=newTvsL(P_113,P_111,P_112,L_127,fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
-'T_133:=newTvsL(P_111,P_113,P_112,L_130,fuerte,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
-'T_134:=newTvsL(P_111,P_113,P_112,L_129,fuerte,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
-'P_135:=newCnstrGCtrl3D('','',3.694568452381,6.869791666667,0,'',fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'T_122:=newTvsL(P_103,P_102,P_101,L_114,azul_descartes_soft,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
 </CONSTRUCTION>
 
 <PASOS>
@@ -165,7 +152,7 @@ bg_img_amp=1
 </PASO>
 
 <PASO>
-<NOG>123</NOG>
+<NOG>122</NOG>
 <SPACE>TR</SPACE>
 <TEXT>Texto de este paso</TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
@@ -173,6 +160,22 @@ bg_img_amp=1
 <3D></3D>
 <CAJA>0</CAJA>
 <PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>122</NOG>
+<SPACE>TL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA></CAJA>
+<PLANOXY></PLANOXY>
 <LNGLN>0</LNGLN>
 <ANIM>0</ANIM>
 <FAMS>0</FAMS>

@@ -104,13 +104,17 @@ body {
   background-color: #fff;
   /* background-size: var(--page-width) var(--page-height); */
   background-repeat: no-repeat;
-  }
+}
 #show_page_viewer {
   position: absolute;
   bottom: 0;
   left: 0;
   width: var(--page-width);
   height: 80px;
+
+  background-image: url("show-scroll.svg");
+  background-repeat: no-repeat;
+  background-position: center 42px;
 }
 #page_viewer {
   width: 100%;
@@ -382,7 +386,7 @@ display: none;
   /* top: 805px; */
   width: 75px;
   height: 75px;
-  background-image: url("../icons_black/step-previous.svg");
+  background-image: url("step-previous.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -393,7 +397,7 @@ display: none;
   bottom: 0;
   width: 75px;
   height: 75px;
-  background-image: url("../icons_black/step-next.svg");
+  background-image: url("step-next.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -406,40 +410,73 @@ display: none;
 }
 
 /* table of contents */
-#table_of_contents {
+#toc_btn {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background-image: url("toc.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#toc_container {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.75);
-  display: none;
-  font-family : DJS_sansserif;
+  font-family : 'Times New Roman', Times, serif;
   font-size: 20px;
+  background-color: #777;
+  display: none;
+}
+#toc {
+  position: absolute;
+  left: 70px;
+  right: 70px;
+  top: 70px;
+  bottom: 70px;
+  overflow-y: scroll;
+  background: #ffffff;
   cursor: pointer;
 }
-#toc_list {
-  position: absolute;
-  left: 75px;
-  top: 75px;
-  width: 1050px;
-  height: 730px;
-  padding: 22px;
-  background-color: #f0f0f0;
-  overflow-y: auto;
-  overflow-x: hidden;
+#toc div:hover {
+  background-color: #bdc3c7;
 }
-.toc {
-  margin: 0;
-  padding: 10px;
-}
-.toc:hover {
-  background-color: rgba(52, 152, 219, 0.25);
-  border-bottom: 4px solid rgb(52, 152, 219);
-  box-sizing: border-box;
-  font-weight: bold;
+#toc .toc_num {
+  float: right;
+  padding-right: 1em;
+  text-align: right;
 }
 
+.toc_part {
+  font-size: 110%;
+  font-weight: bold;
+  padding-left: 1em;
+}
+.toc_chapter {
+  font-size: 110%;
+  font-weight: bold;
+  padding-left: 1em;
+}
+.toc_section {
+  padding-left: 3em;
+}
+.toc_subsection {
+  padding-left: 5em;
+}
+.toc_subsubsection {
+  padding-left: 7em;
+}
+#toc div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
 
 /* ProGeo3D */
 #ProGeo3D_small {
