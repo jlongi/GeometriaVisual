@@ -1,9 +1,9 @@
 ﻿<APP>El horizonte de una loseta</APP>
 
 <AUX>
-_escala_=60.175370274079
-_Ox_=176.4949
-_Oy_=72.9653
+_escala_=55.762092426657
+_Ox_=173.9273
+_Oy_=53.8241
 _nNOG_=19
 _pasos_=4
 E3.rot.x=0
@@ -31,7 +31,7 @@ bg_img_amp=1
 
 <CONSTRUCTION>
 'P_101:=newCnstrGCtrl3D('','',-7.527909716847,0.720345141577,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
-'P_102:=newCnstrGCtrl3D('','',-6.670250377639,-1.008356302777,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-6.753530671845,-1.121831751181,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
 'L_103:=newS(P_101,P_102,fuerte,1,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ '' ¦ ''
 'P_104:=newCnstrGCtrl3D('','',-5.632130911347,1.403553518387,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
 'P_105:=newCnstrGCtrl3D('','',-4.265268932927,0.525548447813,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
@@ -113,7 +113,7 @@ bg_img_amp=1
 <LNGLN>0</LNGLN>
 <ANIM>0</ANIM>
 <FAMS>-1</FAMS>
-<EXPLORE>0</EXPLORE>
+<EXPLORE>1</EXPLORE>
 <NOMBRES>1</NOMBRES>
 </PASO>
 
