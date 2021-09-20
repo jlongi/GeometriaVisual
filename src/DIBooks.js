@@ -455,6 +455,7 @@ class DIBooks {
           button.addEventListener("click", (evt) => {
             self.setVisibility(self.ProGeo3D_small, false);
             self.setVisibility(self.ProGeo3D_fullscreen, true);
+            self.toc_btn.style.display = "none";
           });
         }
 
@@ -486,14 +487,16 @@ class DIBooks {
             evt.preventDefault();
             self.setVisibility(self.ProGeo3D_small, true);
             self.setVisibility(self.ProGeo3D_fullscreen, false);
-          });
+            self.toc_btn.style.display = "block";
+          }, true);
           ProGeo_doc.getElementById("b_switchRead").querySelector("canvas").addEventListener("touchstart", function(evt) {
             console.log("Cerrando")
             evt.stopPropagation();
             evt.preventDefault();
             self.setVisibility(self.ProGeo3D_small, true);
             self.setVisibility(self.ProGeo3D_fullscreen, false);
-          });
+            self.toc_btn.style.display = "block";
+          }, true);
         }
         
         // hide the initial loader screen
