@@ -129,7 +129,7 @@ class DIBooks {
         let match = evt.target.getAttribute("src").match(/.*?-(\d+?).png/);
         if (match) {
           this.page_index = parseInt(match[1])-1;
-          this.step = 0;
+          this.step = 1;
 
           // show tha image in page
           this.setPageImage();
@@ -159,7 +159,7 @@ class DIBooks {
         this.step--;
       }
       else {
-        this.step = (prev) ? prev.paso_fin : 0;
+        this.step = (prev) ? prev.paso_fin : 1;
         this.page_index = Math.max(0, this.page_index-1);
         this.setPageImage();
       }
@@ -193,7 +193,7 @@ class DIBooks {
         this.step++;
       }
       else {
-        this.step = (next) ? next.paso_ini : 0;
+        this.step = (next) ? next.paso_ini : 1;
 
         this.page_index = Math.min(pages.length-1, this.page_index+1);
         this.setPageImage();      
@@ -327,7 +327,7 @@ class DIBooks {
       toc_entry.innerHTML = `${toc_info[i].num}&nbsp;&nbsp;&nbsp;&nbsp;${toc_info[i].name.replace(/\\\\/g, " ").replace(/``/g, "“").replace(/''/g, "”")}<span class="toc_num">${toc_info[i].page}</span>`;
       
       toc_entry.addEventListener("click", (evt) => {
-        this.step = 0;
+        this.step = 1;
         this.page_index = initial_page + toc_info[i].page -1;
 
         // show tha image in page
@@ -509,27 +509,26 @@ class DIBooks {
 
       //
       else if (data.name == "updateStep") {
-        self_dibooks.step = parseInt(data.value)+1;
-
-        if (self_dibooks.step > pages[self_dibooks.page_index].paso_fin) {
-          self_dibooks.page_index++;
-          self_dibooks.step--;
-        }
-        else if (self_dibooks.step < pages[self_dibooks.page_index].paso_ini) {
-          self_dibooks.page_index--;
-          self_dibooks.step++;
-        }
-
+        let tmp_step = parseInt(data.value)+1;
         let full_visible = self_dibooks.ProGeo3D_fullscreen.style.visibility;
 
-console.log(pages[self_dibooks.page_index], self_dibooks.step)
-
-        // show tha image in page
-        self_dibooks.setPageImage();
-        // show the pg3
-        self_dibooks.showPG3()
-        // draw rectangles
-        self_dibooks.drawTextCover();
+// console.log(self_dibooks.step, tmp_step, self_dibooks.step-tmp_step)
+        
+        // paso adelante
+        if ((self_dibooks.step-tmp_step) < 0) {
+          self_dibooks.next_page();
+        }
+        else if ((self_dibooks.step-tmp_step) > 0) {
+          self_dibooks.prev_page();
+        }
+        else {
+          if (tmp_step >= pages[self_dibooks.page_index].paso_fin) {
+            self_dibooks.next_page();
+          }
+          else if (tmp_step <= pages[self_dibooks.page_index].paso_ini) {
+            self_dibooks.prev_page();
+          }
+        }
 
         if (full_visible == "visible") {
           self_dibooks.setVisibility(self_dibooks.ProGeo3D_fullscreen, true);
