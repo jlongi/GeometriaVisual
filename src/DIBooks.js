@@ -240,7 +240,7 @@ class DIBooks {
       }
 
       this.ProGeo3D_small.className = this.pg3Pos[current.escena];
-
+      
       this.djs_small.evaluator.functions["goToStep"](this.step-1);
       this.djs_small.update();
       
