@@ -130,7 +130,13 @@ class DIBooks {
         if (match) {
           this.page_index = parseInt(match[1])-1;
           this.step = 0;
+
+          // show tha image in page
           this.setPageImage();
+          // show the pg3
+          this.showPG3()
+          // draw rectangles
+          this.drawTextCover();
 
           this.page.style.display = "block";
           this.page_viewer.style.display = "none";
@@ -216,18 +222,10 @@ class DIBooks {
   showPG3() {
     let current = pages[this.page_index];
 
-    // hide the interactive if is in the force_hide file
+    // hide the interactive if is not visible
     if ( (current) && (visible[this.page_index+1]) ) {
       let next = pages[this.page_index+1];
-      // if (
-      //   (current.pasos) || 
-      //   ( (next) && (next.escena == current.escena) )
-      // ) {
-      //   this.setVisibility(this.ProGeo3D_small, true);
-      // }
-      // else {
-      //   this.setVisibility(this.ProGeo3D_small, false);
-      // }
+
       this.setVisibility(this.ProGeo3D_small, true);
       this.setVisibility(this.ProGeo3D_fullscreen, false);
 
@@ -294,14 +292,6 @@ class DIBooks {
                   current_rect.h*this.scale 
                 );
               }
-
-              // this.ctx.strokeRect( 
-              //   current_rect.x*this.scale,
-              //   this.page_height - current_rect.y*this.scale,
-              //   current_rect.w*this.scale, 
-              //   current_rect.h*this.scale 
-              // );
-
             }
           }
         }
@@ -339,9 +329,14 @@ class DIBooks {
       toc_entry.addEventListener("click", (evt) => {
         this.step = 0;
         this.page_index = initial_page + toc_info[i].page -1;
+
+        // show tha image in page
         this.setPageImage();
-        this.showPG3();
+        // show the pg3
+        this.showPG3()
+        // draw rectangles
         this.drawTextCover();
+
         toc_container.style.display = "none";
       });
 
@@ -510,6 +505,35 @@ class DIBooks {
           }, 1000);
         }
 
+      }
+
+      //
+      else if (data.name == "updateStep") {
+        self_dibooks.step = parseInt(data.value)+1;
+
+        if (self_dibooks.step > pages[self_dibooks.page_index].paso_fin) {
+          self_dibooks.page_index++;
+          self_dibooks.step--;
+        }
+        else if (self_dibooks.step < pages[self_dibooks.page_index].paso_ini) {
+          self_dibooks.page_index--;
+          self_dibooks.step++;
+        }
+
+        let full_visible = self_dibooks.ProGeo3D_fullscreen.style.visibility;
+
+console.log(pages[self_dibooks.page_index], self_dibooks.step)
+
+        // show tha image in page
+        self_dibooks.setPageImage();
+        // show the pg3
+        self_dibooks.showPG3()
+        // draw rectangles
+        self_dibooks.drawTextCover();
+
+        if (full_visible == "visible") {
+          self_dibooks.setVisibility(self_dibooks.ProGeo3D_fullscreen, true);
+        }
       }
     }
   }
