@@ -481,7 +481,7 @@ class DIBooks {
           // });
 
           // close button
-          ProGeo_doc.getElementById("b_switchRead").querySelector("canvas").addEventListener("mousedown", function(evt) {
+          ProGeo_doc.getElementById("roli_switchRead").querySelector("canvas").addEventListener("mousedown", function(evt) {
             console.log("Cerrando")
             evt.stopPropagation();
             evt.preventDefault();
@@ -489,7 +489,7 @@ class DIBooks {
             self.setVisibility(self.ProGeo3D_fullscreen, false);
             self.toc_btn.style.display = "block";
           }, true);
-          ProGeo_doc.getElementById("b_switchRead").querySelector("canvas").addEventListener("touchstart", function(evt) {
+          ProGeo_doc.getElementById("roli_switchRead").querySelector("canvas").addEventListener("touchstart", function(evt) {
             console.log("Cerrando")
             evt.stopPropagation();
             evt.preventDefault();
