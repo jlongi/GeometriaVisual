@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" id="hamburger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 54 54" style="enable-background:new 0 0 54 54;" xml:space="preserve">
+	 
+<style type="text/css">
+	.frame{opacity:0;fill:#FFFFFF;}
+	.icon{fill:#E0E8E0;}
+</style>
+
+<rect id="FRAME" class="frame" width="54" height="54"/>
+
+<g id="ICON" class="icon">
+	<path d="M42,39H12c-0.8,0-1.5-0.7-1.5-1.5S11.2,36,12,36h30c0.8,0,1.5,0.7,1.5,1.5S42.8,39,42,39z"/>
+	<path d="M42,29H12c-0.8,0-1.5-0.7-1.5-1.5S11.2,26,12,26h30c0.8,0,1.5,0.7,1.5,1.5S42.8,29,42,29z"/>
+	<path d="M42,19H12c-0.8,0-1.5-0.7-1.5-1.5S11.2,16,12,16h30c0.8,0,1.5,0.7,1.5,1.5S42.8,19,42,19z"/>
+</g>
+
+</svg>
