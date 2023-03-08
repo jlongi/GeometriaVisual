@@ -1,0 +1,190 @@
+﻿<APP>Una curva-A es una curva armónica</APP>
+
+<AUX>
+_escala_=18.368093175558
+_Ox_=15.5303
+_Oy_=-4.8611
+_nNOG_=42
+_pasos_=7
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=34.7739
+show_E2=0
+show_E3=1
+planoxy=1
+caja=1
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+-0.3162 ¦ -0.8428 ¦ 0.4356
+0.9451 ¦ -0.3196 ¦ 0.0678
+0.0821 ¦ 0.4332 ¦ 0.8976
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('L','',-1.654562960294,10.68081559705,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ 'L' ¦ ''
+'P_102:=newCnstrGCtrl3D('A','',-8.58130705449,2.377248641823,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ 'A' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('B','',4.278239837844,2.737434603472,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ 'B' ¦ ''
+'L_105:=newLine2D(P_101,P_104,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('C','',-1.744209616834,-4.422563053884,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ 'C' ¦ ''
+'P_107:=newCnstrGCtrl3D('P','',-1.725826583296,1.23256604388,18.645883438905,'',turquesa_strong,1,'')' ¦ 'turquesa_strong' ¦ 1 ¦ 'P' ¦ ''
+'L_108:=newLine2D(P_107,P_101,fuerte,1,'')' ¦ 'naranja_strong' ¦ 12 ¦ '' ¦ ''
+'P_109:=newCnstrGCtrl3D('S','',-1.675349746498,7.92486894171,5.438791578284,'108',morado_strong,1,'')' ¦ 'morado_strong' ¦ 1 ¦ 'S' ¦ ''
+'P_110:=newHarmonicReflection(109,101,107,'')' ¦ 'morado_strong' ¦ 2 ¦ 'S′' ¦ ''
+'L_111:=newLine2D(P_102,P_109,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_112:=newLine2D(P_104,P_109,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_113:=newLine2D(P_104,P_110,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_114:=newLine2D(P_110,P_102,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'T_115:=newT(P_106,P_104,P_110,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_116:=newMeetLT('','',L_111,T_115,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'T_117:=newT(P_106,P_102,P_110,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_118:=newMeetLT('','',L_112,T_117,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'L_119:=newLine2D(P_116,P_106,fuerte,1,'')' ¦ 'rojo_strong' ¦ 1 ¦ '' ¦ ''
+'L_120:=newLine2D(P_118,P_106,fuerte,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'P_121:=newMeetLL2D('','',L_119,L_113,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_122:=newMeetLL2D('','',L_114,L_120,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'L_123:=newLine2D(P_102,P_104,fuerte,1,'')' ¦ 'naranja' ¦ 12 ¦ '' ¦ ''
+'P_124:=newCnstrGCtrl3D('X','',-3.497898475993,2.519630984112,0,L_123,naranja,2,'')' ¦ 'naranja' ¦ 2 ¦ 'X' ¦ ''
+'L_125:=newLine2D(P_124,P_101,fuerte,1,'')' ¦ 'naranja' ¦ 11 ¦ '' ¦ ''
+'T_126:=newT(P_124,P_101,P_107,fuerte,'')' ¦ 'naranja' ¦ 3 ¦ '' ¦ ''
+'P_127:=newMeetLT('','',L_120,T_126,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
+'T_128:=newT(P_127,P_104,P_110,fuerte,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_129:=newMeetLT('','',L_111,T_128,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
+'L_130:=newLine2D(P_129,P_127,fuerte,1,'')' ¦ 'rojo_strong' ¦ 1 ¦ '' ¦ ''
+'P_131:=newCnstrGCtrl3D('','',-1.624169375724,14.710447542964,-7.95237754278,L_108,gris_descartes,1,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'C_132:=newCurve(L_130,P_124,'')' ¦ 'morado_soft' ¦ 21 ¦ '' ¦ ''
+'T_133:=newT(P_106,P_104,P_102,fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
+'P_134:=newMeetLT('','',L_130,T_133,'')' ¦ 'fuerte_strong' ¦ 2 ¦ 'Z' ¦ ''
+'C_135:=newCurve(P_134,P_124,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_136:=newMeetLT('','',L_119,T_126,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_137:=newMeetLT('','',L_120,T_126,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_138:=newLine2D(P_136,P_134,azul_descartes_strong,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'L_139:=newS(P_137,P_106,azul_descartes_strong,3,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ '' ¦ ''
+'L_140:=newS(P_136,P_134,azul_descartes_strong,3,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ '' ¦ ''
+'L_141:=newS(P_134,P_137,rojo_strong,3,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
+'L_142:=newS(P_106,P_136,rojo_strong,3,'')' ¦ 'rojo_strong' ¦ 3 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>106</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,0,0,0,0,2,0,0,0,2</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>109</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso.</TEXT>
+<HCOLS>2,0,0,0,0,2,0,0,0,2</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>114</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>1</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>122</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>3,0,1,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>135</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>7,5,1,0,0,0,5,0,0,6</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>135</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>7,5,0,0,0,0,5,2,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>1</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>142</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>7,1,0,0,0,0,1,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>1</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>1</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>0</NOMBRES>
+</PASO>
+
+</PASOS>

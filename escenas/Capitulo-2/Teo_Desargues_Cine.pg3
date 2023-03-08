@@ -1,0 +1,163 @@
+﻿<APP>Teo_Desargues_Cine</APP>
+
+<AUX>
+_escala_=127.931561572341
+_Ox_=170.6968
+_Oy_=130.3379
+_nNOG_=47
+_pasos_=5
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=121.4909
+show_E2=0
+show_E3=1
+planoxy=1
+caja=1
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.1717 ¦ -0.957 ¦ 0.234
+0.9843 ¦ 0.1764 ¦ -0.0005
+-0.0408 ¦ 0.2304 ¦ 0.9722
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-3.413917811791,3.139902091091,0,'',verde,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-4.085082537986,0.698261635386,0,'',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',-3.078237421141,1.171090081896,0,'',azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'T_105:=newT(P_104,P_101,P_102,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',-1.787437861226,2.997101658885,0,105,verde,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('','',-1.375597197047,0.201577359962,0,105,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_108:=newLine2D(P_107,P_106,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_109:=newLine2D(P_107,P_102,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'L_110:=newLine2D(P_101,P_106,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'P_111:=newMeetLL2D('','',L_109,L_110,'')' ¦ 'fuerte' ¦ 13 ¦ '' ¦ ''
+'L_112:=newLine2D(P_111,P_104,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'P_113:=newCnstrGCtrl3D('','',-2.391423844863,1.06179599966,0,L_112,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_114:=newS(P_101,P_102,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_115:=newS(P_106,P_107,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_116:=newS(P_101,P_104,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_117:=newS(P_106,P_113,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_118:=newS(P_113,P_107,fuerte,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'L_119:=newS(P_104,P_102,fuerte,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'T_120:=newT(P_106,P_113,P_107,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_121:=newCnstrGCtrl3D('I','',-1.718220033908,1.75608954438,3.242460417001,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'I' ¦ ''
+'L_122:=newLine2D(P_121,P_111,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_123:=newCnstrGCtrl3D('D','',-3.562316026618,1.99777267094,3.032997975151,L_122,fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'D' ¦ ''
+'L_124:=newLine2D(P_106,P_123,fuerte,1,'')' ¦ 'verde_soft' ¦ 11 ¦ '' ¦ ''
+'L_125:=newLine2D(P_101,P_121,fuerte,1,'')' ¦ 'verde_soft' ¦ 11 ¦ '' ¦ ''
+'P_126:=newMeetLL2D('','',L_125,L_124,'')' ¦ 'verde_strong' ¦ 12 ¦ '' ¦ ''
+'L_127:=newLine2D(P_113,P_123,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 11 ¦ '' ¦ ''
+'L_128:=newLine2D(P_104,P_121,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 11 ¦ '' ¦ ''
+'P_129:=newMeetLL2D('','',L_127,L_128,'')' ¦ 'azul_descartes' ¦ 12 ¦ '' ¦ ''
+'L_130:=newLine2D(P_107,P_123,fuerte,1,'')' ¦ 'rojo_soft' ¦ 11 ¦ '' ¦ ''
+'L_131:=newLine2D(P_102,P_121,fuerte,1,'')' ¦ 'rojo_soft' ¦ 11 ¦ '' ¦ ''
+'P_132:=newMeetLL2D('','',L_130,L_131,'')' ¦ 'rojo' ¦ 12 ¦ '' ¦ ''
+'L_133:=newS(P_126,P_129,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'L_134:=newS(P_129,P_132,fuerte,1,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+'L_135:=newS(P_126,P_132,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'T_136:=newT(P_129,P_126,P_132,fuerte,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'L_137:=newMeetTT('','',T_136,T_105,'')' ¦ 'naranja_strong' ¦ 2 ¦ '' ¦ ''
+'L_138:=newLine2D(P_132,P_129,fuerte,1,'')' ¦ 'verde' ¦ 21 ¦ '' ¦ ''
+'L_139:=newLine2D(P_102,P_104,fuerte,1,'')' ¦ 'verde' ¦ 21 ¦ '' ¦ ''
+'L_140:=newLine2D(P_107,P_113,fuerte,1,'')' ¦ 'verde' ¦ 21 ¦ '' ¦ ''
+'P_141:=newMeetLL2D('','',L_139,L_140,'')' ¦ 'verde_strong' ¦ 23 ¦ '' ¦ ''
+'L_142:=newLine2D(P_106,P_113,fuerte,1,'')' ¦ 'rojo' ¦ 21 ¦ '' ¦ ''
+'L_143:=newLine2D(P_101,P_104,fuerte,1,'')' ¦ 'rojo' ¦ 21 ¦ '' ¦ ''
+'L_144:=newLine2D(P_126,P_129,fuerte,1,'')' ¦ 'rojo' ¦ 21 ¦ '' ¦ ''
+'L_145:=newLine2D(P_126,P_132,fuerte,1,'')' ¦ 'azul_descartes' ¦ 21 ¦ '' ¦ ''
+'P_146:=newMeetLL2D('','',L_103,L_108,'')' ¦ 'azul_descartes_strong' ¦ 23 ¦ '' ¦ ''
+'P_147:=newMeetLL2D('','',L_143,L_144,'')' ¦ 'rojo_strong' ¦ 23 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>123</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>1</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>128</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,2,0,0,0,0,2,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>136</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>137</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,2,0,0,2,0,2,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>1</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>147</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,2,0,0,2,0,2,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>1</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

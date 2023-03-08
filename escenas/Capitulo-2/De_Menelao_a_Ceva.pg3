@@ -1,0 +1,155 @@
+﻿<APP>De Menelao a Ceva</APP>
+
+<AUX>
+_escala_=49.224872119578
+_Ox_=-23.7061
+_Oy_=115.0278
+_nNOG_=23
+_pasos_=6
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0871 ¦ 0
+-0.0076 ¦ 0.0869 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',0.010554234032,3.895485028234,0,'',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-5.44402184035,-0.222426998297,0,'',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',4.328157250651,-1.220578820226,0,'',verde,2,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+'L_105:=newLine2D(P_102,P_104,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'L_106:=newLine2D(P_101,P_104,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('','',0.897290134233,2.844763721831,0,'106',rojo_strong,1,'')' ¦ 'rojo_strong' ¦ 1 ¦ '' ¦ ''
+'P_108:=newCnstrGCtrl3D('','',1.397003510416,4.942179779859,0,'103',verde_strong,1,'')' ¦ 'verde_strong' ¦ 1 ¦ '' ¦ ''
+'L_109:=newLine2D(P_107,P_108,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_110:=newMeetLL2D('','',L_109,L_105,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ '' ¦ ''
+'L_111:=newLine2D(P_104,P_108,fuerte,1,'')' ¦ 'verde_soft' ¦ 11 ¦ '' ¦ ''
+'L_112:=newLine2D(P_102,P_107,fuerte,1,'')' ¦ 'rojo' ¦ 11 ¦ '' ¦ ''
+'L_113:=newLine2D(P_101,P_110,fuerte,1,'')' ¦ 'azul_descartes' ¦ 11 ¦ '' ¦ ''
+'P_114:=newMeetLL2D('','',L_111,L_113,'')' ¦ 'rojo' ¦ 13 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_111,L_112,'')' ¦ 'azul_descartes' ¦ 13 ¦ '' ¦ ''
+'P_116:=newMeetLL2D('','',L_113,L_112,'')' ¦ 'verde' ¦ 13 ¦ '' ¦ ''
+'L_117:=newLine2D(P_116,P_104,fuerte,1,'')' ¦ 'verde_soft' ¦ 21 ¦ '' ¦ ''
+'L_118:=newLine2D(P_114,P_102,fuerte,1,'')' ¦ 'rojo_soft' ¦ 21 ¦ '' ¦ ''
+'L_119:=newLine2D(P_115,P_101,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 21 ¦ '' ¦ ''
+'P_120:=newMeetLL2D('','',L_117,L_118,'')' ¦ 'fuerte' ¦ 23 ¦ '' ¦ ''
+'P_121:=newMeetLL2D('','',L_119,L_105,'')' ¦ 'azul_descartes_strong' ¦ 23 ¦ '' ¦ ''
+'P_122:=newMeetLL2D('','',L_117,L_103,'')' ¦ 'verde_strong' ¦ 23 ¦ '' ¦ ''
+'P_123:=newMeetLL2D('','',L_118,L_106,'')' ¦ 'rojo_strong' ¦ 23 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>110</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>113</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>116</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>120</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>123</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>115,116,117,119,120,122,123</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>123</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

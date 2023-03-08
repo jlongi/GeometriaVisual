@@ -1,0 +1,168 @@
+﻿<APP>Segundo reglado y Axioma del Equipal</APP>
+
+<AUX>
+_escala_=45.283887121545
+_Ox_=-26.8235
+_Oy_=-25.0637
+_nNOG_=33
+_pasos_=6
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=35.4462
+show_E2=0
+show_E3=1
+planoxy=0
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+-0.5258 ¦ 0.8243 ¦ -0.2101
+0.8458 ¦ 0.5328 ¦ -0.0262
+0.0903 ¦ -0.1915 ¦ -0.9773
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',1.8374,5.1395,-4.7328,'',rosa_soft,1,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-3.411,-3.4298,-4.5978,'',rosa_soft,1,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',6.6591,-2.2071,-5.0136,'',rosa_soft,1,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
+'T_104:=newT(P_101,P_102,P_103,fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',-4.3699,-1.9234,7.6827,'',rosa_soft,1,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',4.1617,-6.5365,7.4478,'',rosa_soft,1,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('','',2.7897,4.7792,7.8187,'',rosa_soft,1,'')' ¦ 'rosa_soft' ¦ 1 ¦ '' ¦ ''
+'T_108:=newT(P_105,P_106,P_107,fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
+'L_109:=newLine2D(P_105,P_103,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'L_110:=newLine2D(P_106,P_101,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'L_111:=newLine2D(P_107,P_102,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'P_112:=newCnstrGCtrl3D('','',0.610761260008,-2.051518016091,1.949091372251,'109',fuerte_strong,2,'')' ¦ 'fuerte_strong' ¦ 2 ¦ '' ¦ ''
+'T_113:=newT(P_112,P_106,P_101,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+'P_114:=newMeetLT('','',L_111,T_113,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_115:=newLine2D(P_114,P_112,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_116:=newMeetLL2D('','',L_110,L_115,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'C_117:=newCurve(L_115,P_112,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_118:=newCnstrGCtrl3D('','',2.924607321437,-0.322029357266,0.964759480054,'110',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_119:=newCnstrGCtrl3D('','',-0.237290038102,0.771819990843,1.757348570631,'111',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'T_120:=newT(P_118,P_107,P_102,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_121:=newMeetLT('','',L_109,T_120,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_122:=newLine2D(P_118,P_121,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'T_123:=newT(P_119,P_105,P_103,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_124:=newMeetLT('','',L_110,T_123,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_125:=newLine2D(P_124,P_119,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_126:=newMeetLL2D('','',L_122,L_111,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_127:=newMeetLL2D('','',L_125,L_109,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_128:=newCnstrGCtrl3D('','',-2.65792933732,0.7977133359,-1.856553625659,'115',rojo_strong,1,'')' ¦ 'rojo_strong' ¦ 1 ¦ '' ¦ ''
+'T_129:=newT(P_128,P_119,P_127,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+'P_130:=newMeetLT('','',L_122,T_129,'')' ¦ 'rojo_strong' ¦ 1 ¦ '' ¦ ''
+'L_131:=newLine2D(P_130,P_128,fuerte,1,'')' ¦ 'rojo_strong' ¦ 1 ¦ '' ¦ ''
+'P_132:=newMeetLL2D('','',L_125,L_131,'')' ¦ 'rojo_strong' ¦ 1 ¦ '' ¦ ''
+'C_133:=newCurve(L_131,P_128,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>117</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,0,0,0,0,2,1,0,2,5</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>127</NOG>
+<SPACE>TR</SPACE>
+<TEXT>De tal manera que $\azul{ p}, \azul{q}, \azul{r}$ definen un nuevo reglado $ojo{ \mathcal{R}}$, rojo digamos, que contiene a $ojo{a}, ojo{b}, ojo{c}$, pues éstas tocan a $\azul{ p, q, r}$.
+
+Paso 29
+girando</TEXT>
+<HCOLS>2,0,0,0,0,2,0,0,2,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>133</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,4,0,0,0,2,2,0,2,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>133</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,4,0,0,0,2,0,0,2,1</HCOLS>
+<HOBJS>128</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>133</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,6,0,0,0,2,1,0,2,5</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>133</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,5,0,0,0,2,2,0,2,5</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

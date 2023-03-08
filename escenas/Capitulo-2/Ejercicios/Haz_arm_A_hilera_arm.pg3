@@ -1,0 +1,74 @@
+﻿<APP>Un haz armónico corta en una hilera armónica</APP>
+
+<AUX>
+_escala_=33.625611268433
+_Ox_=0
+_Oy_=50
+_nNOG_=22
+_pasos_=1
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=0
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0872 ¦ 0
+-0.0076 ¦ 0.0868 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-3.893032054966,5.521979315316,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-2.473546131694,3.688476664423,0,'',azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',-5.578671588852,0.021471362637,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_104:=newLine2D(P_103,P_102,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',-0.551325610596,0.28762497325,0,'',azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_106:=newLine2D(P_103,P_105,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('','',0.394998338252,2.268990741151,0,'',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_108:=newLine2D(P_103,P_107,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_109:=newHarmonicReflection(108,104,106,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_110:=newCnstrGCtrl3D('','',-1.054060208422,8.538386902269,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_111:=newCnstrGCtrl3D('','',3.440978548606,-4.148268536975,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_112:=newLine2D(P_110,P_111,fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_113:=newMeetLL2D('','',L_112,L_104,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_114:=newMeetLL2D('','',L_112,L_106,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_112,L_108,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'P_116:=newCnstrGCtrl3D('','',-1.774894862143,1.452595279616,0,'108',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_117:=newLine2D(P_116,P_113,fuerte,1,'')' ¦ 'fuerte' ¦ 11 ¦ '' ¦ ''
+'L_118:=newLine2D(P_116,P_114,fuerte,1,'')' ¦ 'fuerte' ¦ 11 ¦ '' ¦ ''
+'P_119:=newMeetLL2D('','',L_118,L_104,'')' ¦ 'fuerte' ¦ 11 ¦ '' ¦ ''
+'P_120:=newMeetLL2D('','',L_106,L_117,'')' ¦ 'fuerte' ¦ 11 ¦ '' ¦ ''
+'L_121:=newLine2D(P_119,P_120,fuerte,1,'')' ¦ 'fuerte' ¦ 11 ¦ '' ¦ ''
+'P_122:=newMeetLL2D('','',L_112,L_109,'')' ¦ 'rojo' ¦ 12 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>122</NOG>
+<SPACE>R</SPACE>
+<TEXT>Texto de este paso.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>101</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

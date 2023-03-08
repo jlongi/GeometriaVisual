@@ -1,0 +1,88 @@
+﻿<APP>Triángulos en perspectiva (con un lado ideal)</APP>
+
+<AUX>
+_escala_=43.85787925012
+_Ox_=0
+_Oy_=50
+_nNOG_=20
+_pasos_=2
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=0
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0872 ¦ 0
+-0.0076 ¦ 0.0868 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-4.980007462164,0.016461983702,0,'',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-6.476437263957,2.850609335583,0,'',verde_soft,1,'')' ¦ 'verde_soft' ¦ 1 ¦ '' ¦ ''
+'L_103:=newLine2D(P_101,P_102,rojo,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',-2.894075011179,3.530804700034,0,'',azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_105:=newLine2D(P_101,P_104,rojo,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',-1.238932957681,-0.731752917194,0,'',verde,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('','',3.545107772294,0.764676884599,0,'',azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_108:=newLine2D(P_106,P_107,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_109:=newParal2D(L_105,P_106,verde_soft,1,'')' ¦ 'verde_soft' ¦ 11 ¦ '' ¦ ''
+'L_110:=newParal2D(L_103,P_107,azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 11 ¦ '' ¦ ''
+'P_111:=newMeetLL2D('','',L_110,L_109,'')' ¦ 'fuerte' ¦ 3 ¦ '' ¦ ''
+'L_112:=newLine2D(P_111,P_101,rojo_soft,1,'')' ¦ 'rojo_soft' ¦ 11 ¦ '' ¦ ''
+'P_113:=newCnstrGCtrl3D('','',-1.29318165596,2.342734104167,0,'112',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_114:=newLine2D(P_113,P_106,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_115:=newLine2D(P_113,P_107,verde,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'T_116:=newT(P_107,P_113,P_106,naranja_soft,'')' ¦ 'naranja_soft' ¦ 2 ¦ '' ¦ ''
+'T_117:=newT(P_101,P_102,P_104,naranja_soft,'')' ¦ 'naranja_soft' ¦ 2 ¦ '' ¦ ''
+'P_118:=newMeetLL2D('','',L_103,L_115,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+'P_119:=newMeetLL2D('','',L_114,L_105,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'L_120:=newParal2D(L_108,P_119,gris_descartes_soft,2,'')' ¦ 'gris_descartes_soft' ¦ 2 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>117</NOG>
+<SPACE>R</SPACE>
+<TEXT>Texto de este paso.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>120</NOG>
+<SPACE>R</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA></CAJA>
+<PLANOXY></PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES></NOMBRES>
+</PASO>
+
+</PASOS>

@@ -1,0 +1,142 @@
+﻿<APP>Simetría de la armonía</APP>
+
+<AUX>
+_escala_=52.48447204969
+_Ox_=-71.2012
+_Oy_=-98.9388
+_nNOG_=26
+_pasos_=5
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=34.6658
+show_E2=1
+show_E3=0
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0301 ¦ 0.9995 ¦ 0.0094
+-0.9873 ¦ 0.0312 ¦ -0.156
+-0.1562 ¦ -0.0046 ¦ 0.9877
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('A','',-4.311540895627,1.5325434305,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'A' ¦ ''
+'P_102:=newCnstrGCtrl3D('B','',4.286075235008,-0.124782668745,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'B' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('X','',1.782345300341,0.357850761631,0,'103',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'X' ¦ ''
+'P_105:=newCnstrGCtrl3D('O','',2.793468408787,-8.441352027669,-3.332045985682,'',azul_descartes_strong,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ 'O' ¦ ''
+'L_106:=newLine2D(P_104,P_105,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('P','',2.057787068948,-2.03915506127,-0.907688323716,'106',azul_descartes_strong,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ 'P' ¦ ''
+'L_108:=newLine2D(P_105,P_102,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_109:=newLine2D(P_105,P_101,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_110:=newLine2D(P_101,P_107,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'L_111:=newLine2D(P_107,P_102,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_112:=newMeetLL2D('','',L_111,L_109,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'Q' ¦ ''
+'P_113:=newMeetLL2D('','',L_108,L_110,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'R' ¦ ''
+'L_114:=newLine2D(P_112,P_113,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_103,L_114,'')' ¦ 'fuerte' ¦ 3 ¦ 'Y' ¦ ''
+'P_116:=newMeetLL2D('','',L_106,L_114,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ 'Z' ¦ ''
+'L_117:=newLine2D(P_116,P_102,fuerte,1,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_118:=newLine2D(P_116,P_101,fuerte,1,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_119:=newMeetLL2D('','',L_111,L_118,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_120:=newMeetLL2D('','',L_110,L_117,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_121:=newMeetLL2D('','',L_108,L_118,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_122:=newMeetLL2D('','',L_117,L_109,'')' ¦ 'gris_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'L_123:=newLine2D(P_122,P_121,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_124:=newLine2D(P_119,P_120,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_125:=newLine2D(P_122,P_119,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_126:=newLine2D(P_121,P_120,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>115</NOG>
+<SPACE>TR</SPACE>
+<TEXT></TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>116</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>122</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>1</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>126</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,2,0,0,0,0,2,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>1</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>126</NOG>
+<SPACE>TL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,5,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

@@ -1,0 +1,80 @@
+﻿<APP>Teorema de Pappus: presentación</APP>
+
+<AUX>
+_escala_=121.565019643073
+_Ox_=-26.4353
+_Oy_=38.7726
+_nNOG_=28
+_pasos_=1
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=0
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0872 ¦ 0
+-0.0076 ¦ 0.0868 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-2.83925681229,-0.209674755225,0,'',gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',3.852790755087,-1.083453801664,0,'',gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_103:=newLine2D(P_101,P_102,gris_descartes_soft,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',-2.512831235761,1.459599228417,0,'',gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',3.787679294932,2.765227476242,0,'',gris_descartes_soft,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_106:=newLine2D(P_104,P_105,gris_descartes_soft,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('A','1',-0.970174447264,-0.45372039151,0,'103',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ 'A' ¦ '1'
+'P_108:=newCnstrGCtrl3D('A','2',0.483157012153,-0.643481531726,0,'103',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ 'A' ¦ '2'
+'P_109:=newCnstrGCtrl3D('A','3',2.777901304709,-0.943105743835,0,'103',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ 'A' ¦ '3'
+'P_110:=newCnstrGCtrl3D('B','1',-1.4118393976,1.687753127617,0,'106',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'B' ¦ '1'
+'P_111:=newCnstrGCtrl3D('B','2',0.417322864315,2.066802715326,0,'106',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'B' ¦ '2'
+'P_112:=newCnstrGCtrl3D('B','3',2.276937244047,2.452162767088,0,'106',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'B' ¦ '3'
+'L_113:=newLine2D(P_107,P_111,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'L_114:=newLine2D(P_111,P_109,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'L_115:=newLine2D(P_109,P_110,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'L_116:=newLine2D(P_110,P_108,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'L_117:=newLine2D(P_108,P_112,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'L_118:=newLine2D(P_112,P_107,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'P_119:=newMeetLL2D('','',L_117,L_114,'')' ¦ 'verde_strong' ¦ 3 ¦ 'P' ¦ '1'
+'P_120:=newMeetLL2D('','',L_118,L_115,'')' ¦ 'verde_strong' ¦ 3 ¦ 'P' ¦ '2'
+'P_121:=newMeetLL2D('','',L_113,L_116,'')' ¦ 'verde_strong' ¦ 3 ¦ 'P' ¦ '3'
+'L_122:=newS(P_110,P_108,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_123:=newS(P_108,P_112,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_124:=newS(P_112,P_107,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_125:=newS(P_107,P_111,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_126:=newS(P_111,P_109,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_127:=newS(P_109,P_110,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_128:=newLine2D(P_121,P_119,verde,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>128</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

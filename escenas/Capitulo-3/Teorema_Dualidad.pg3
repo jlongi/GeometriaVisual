@@ -1,0 +1,143 @@
+﻿<APP>Correspondencia curvas-haces de armonía</APP>
+
+<AUX>
+_escala_=40.949272678983
+_Ox_=-35.2519
+_Oy_=-19.8751
+_nNOG_=27
+_pasos_=5
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0871 ¦ 0
+-0.0076 ¦ 0.0869 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('A','',-3.953390415244,-2.635235011515,0,'',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ 'A' ¦ ''
+'P_102:=newCnstrGCtrl3D('B','',3.449237012846,-2.097351586696,0,'',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ 'B' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'rojo_strong' ¦ 2 ¦ 'q' ¦ ''
+'P_104:=newCnstrGCtrl3D('C','',0.710969979144,-0.507496401309,0,'',azul_descartes_strong,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ 'C' ¦ ''
+'P_105:=newCnstrGCtrl3D('D','',0.831195752708,-5.447452081811,0,'',azul_descartes_strong,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ 'D' ¦ ''
+'L_106:=newLine2D(P_105,P_104,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_107:=newMeetLL2D('','',L_106,L_103,'')' ¦ 'verde_strong' ¦ 2 ¦ 'O' ¦ ''
+'P_108:=newHarmonicReflection(107,101,102,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ 'P' ¦ ''
+'P_109:=newHarmonicReflection(107,104,105,'')' ¦ 'rojo_strong' ¦ 3 ¦ 'Q' ¦ ''
+'L_110:=newLine2D(P_109,P_101,fuerte,1,'')' ¦ 'rojo_soft' ¦ 3 ¦ 'a' ¦ ''
+'L_111:=newLine2D(P_109,P_102,fuerte,1,'')' ¦ 'rojo_soft' ¦ 3 ¦ 'b' ¦ ''
+'L_112:=newLine2D(P_104,P_108,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 3 ¦ 'c' ¦ ''
+'L_113:=newLine2D(P_108,P_105,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 3 ¦ 'd' ¦ ''
+'P_114:=newCnstrGCtrl3D('X','',-1.784755658361,-2.477659515308,0,L_103,verde,1,'')' ¦ 'verde' ¦ 1 ¦ 'X' ¦ ''
+'L_115:=newLine2D(P_114,P_109,fuerte,1,'')' ¦ 'turquesa' ¦ 2 ¦ 'y' ¦ ''
+'L_116:=newHarmonicReflection(115,110,111,'')' ¦ 'verde' ¦ 2 ¦ 'x' ¦ ''
+'P_117:=newMeetLL2D('','',L_103,L_116,'')' ¦ 'turquesa' ¦ 3 ¦ 'Y' ¦ ''
+'L_118:=newLine2D(P_104,P_114,fuerte,1,'')' ¦ 'gris_descartes' ¦ 11 ¦ '' ¦ ''
+'L_119:=newLine2D(P_105,P_117,fuerte,1,'')' ¦ 'gris_descartes' ¦ 11 ¦ '' ¦ ''
+'P_120:=newMeetLL2D('','',L_119,L_118,'')' ¦ 'naranja_strong' ¦ 13 ¦ 'Z' ¦ ''
+'C_121:=newCurve(P_120,P_114,'')' ¦ 'naranja' ¦ 2 ¦ '' ¦ ''
+'P_122:=newMeetLL2D('','',L_115,L_113,'')' ¦ 'gris_descartes' ¦ 13 ¦ '' ¦ ''
+'P_123:=newMeetLL2D('','',L_112,L_116,'')' ¦ 'gris_descartes' ¦ 13 ¦ '' ¦ ''
+'L_124:=newLine2D(P_120,P_123,naranja_soft,3,'')' ¦ 'naranja_soft' ¦ 3 ¦ 'z' ¦ ''
+'P_125:=newMidPoint('','',P_123,P_109,'')' ¦ 'verde' ¦ 0 ¦ 'x' ¦ ''
+'T_126:=newT(P_109,P_114,P_117,gris_descartes_soft,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'C_127:=newCurve(L_124,P_114,'')' ¦ 'naranja_soft' ¦ 11 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>121</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>1,0,0,0,4,0,0,0,0,2</HCOLS>
+<HOBJS>103,106,108,109,114,115,116,117,120</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>121</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,4,0,0,0,0,2</HCOLS>
+<HOBJS>106,108,109,110,111,112,113,115,116</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>125</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,4,0,0,0,0,0</HCOLS>
+<HOBJS>101,102,104,105,106,108,118,119,120</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>126</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>101,102,110,111</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>127</NOG>
+<SPACE>BR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>3,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>106,107</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>0</NOMBRES>
+</PASO>
+
+</PASOS>

@@ -1,0 +1,137 @@
+﻿<APP>Reflexión armonica en el plano</APP>
+
+<AUX>
+_escala_=60.857142857143
+_Ox_=28.3661
+_Oy_=41.0982
+_nNOG_=21
+_pasos_=5
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=0
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0871 ¦ 0
+-0.0076 ¦ 0.0869 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-2.638414473136,-3.078154023632,0,'',fuerte,0,'')' ¦ 'fuerte' ¦ 0 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',3.042957638542,4.603918672784,0,'',fuerte,0,'')' ¦ 'fuerte' ¦ 0 ¦ '' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ 'e' ¦ ''
+'P_104:=newCnstrGCtrl3D('C','',-6.787457307491,4.668402531491,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'C' ¦ ''
+'P_105:=newCnstrGCtrl3D('X','',-0.516040684601,3.05361527078,0,'',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'X' ¦ ''
+'P_106:=newHarmonicReflection(105,104,103,'')' ¦ 'azul_descartes' ¦ 3 ¦ 'Y' ¦ ''
+'L_107:=newLine2D(P_104,P_105,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 11 ¦ '' ¦ ''
+'L_108:=newS(P_105,P_106,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 4 ¦ '' ¦ ''
+'P_109:=newMeetLL2D('','',L_107,L_103,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_110:=newCnstrGCtrl3D('','',-0.07372216644,6.755235994688,0,'',rojo,0,'')' ¦ 'rojo' ¦ 0 ¦ '' ¦ ''
+'P_111:=newCnstrGCtrl3D('','',-1.342396021549,0.434042251111,0,'',rojo,0,'')' ¦ 'rojo' ¦ 0 ¦ '' ¦ ''
+'L_112:=newLine2D(P_110,P_111,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ 'l' ¦ ''
+'P_113:=newMeetLL2D('','',L_112,L_103,'')' ¦ 'rojo' ¦ 13 ¦ '' ¦ ''
+'L_114:=newLine2D(P_113,P_104,fuerte,1,'')' ¦ 'gris_descartes' ¦ 11 ¦ '' ¦ ''
+'L_115:=newHarmonicReflection(112,114,103,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_116:=newHarmonicReflection(111,104,103,'')' ¦ 'rojo_soft' ¦ 10 ¦ 'l′' ¦ ''
+'P_117:=newCnstrGCtrl3D('X','',-1.057005208106,1.856007886446,0,L_112,rosa,1,'')' ¦ 'rosa' ¦ 1 ¦ 'X' ¦ ''
+'L_118:=newLine2D(P_104,P_117,fuerte,1,'')' ¦ 'rosa_soft' ¦ 11 ¦ '' ¦ ''
+'P_119:=newMeetLL2D('','',L_118,L_115,'')' ¦ 'rosa' ¦ 12 ¦ 'X′' ¦ ''
+'P_120:=newMeetLL2D('','',L_103,L_118,'')' ¦ 'fuerte' ¦ 12 ¦ '' ¦ ''
+'L_121:=newS(P_117,P_119,fuerte,1,'')' ¦ 'rosa_soft' ¦ 2 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>104</NOG>
+<SPACE>TR</SPACE>
+<TEXT></TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>109</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>112</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>105,106,107,108,109</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>116</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>105,106,107,108,109</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>121</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>105,106,107,108,109</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

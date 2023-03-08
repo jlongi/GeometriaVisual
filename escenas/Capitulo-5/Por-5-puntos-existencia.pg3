@@ -1,0 +1,130 @@
+﻿<APP>Curva armónica por 5 puntos</APP>
+
+<AUX>
+_escala_=20.630350703966
+_Ox_=3.7978
+_Oy_=51.7536
+_nNOG_=30
+_pasos_=4
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=88.3009
+show_E2=0
+show_E3=1
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+-0.2415 ¦ -0.8766 ¦ 0.4162
+0.9704 ¦ -0.2165 ¦ 0.1071
+-0.0038 ¦ 0.4298 ¦ 0.9029
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-11.249648578647,-2.789706751874,0,'',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-7.985380013258,13.829403403836,0,'',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',10.576599078695,-1.761371910521,0,'',rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'T_104:=newT(P_103,P_101,P_102,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',-1.059891212337,-6.337651142587,0,104,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',6.030945226935,11.7650369637,0,104,azul_descartes,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'C_107:=newConic5Pts(P_101,P_105,P_102,P_106,P_103,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_108:=newCnstrGCtrl3D('','',0.35965720974,-3.609157665361,16.877687106267,'',azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_109:=newLine2D(P_108,P_106,fuerte,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'P_110:=newCnstrGCtrl3D('','',-6.720459049634,6.321167962183,16.213592356044,'',azul_descartes_soft,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_111:=newLine2D(P_105,P_110,fuerte,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'T_112:=newPlane(109,102)' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_113:=newMeetLT('','',L_111,T_112,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_114:=newLine2D(P_102,P_113,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_114,L_109,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'T_116:=newPlane(109,103)' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_117:=newMeetLT('','',L_111,T_116,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_118:=newLine2D(P_103,P_117,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_119:=newMeetLL2D('','',L_118,L_109,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'T_120:=newPlane(111,101)' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_121:=newMeetLT('','',L_109,T_120,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_122:=newLine2D(P_121,P_101,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'P_123:=newMeetLL2D('','',L_111,L_122,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_124:=newCnstrGCtrl3D('','',-6.260947698127,7.255530202292,6.58042048623,L_114,naranja,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'T_125:=newPlane(118,124)' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_126:=newMeetLT('','',L_122,T_125,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'L_127:=newLine2D(P_126,P_124,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'P_128:=newMeetLT('','',L_127,T_104,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'C_129:=newCurve(L_127,P_124,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'C_130:=newCurve(P_128,P_124,'')' ¦ 'naranja_strong' ¦ 2 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>107</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso.</TEXT>
+<HCOLS>2,0,0,0,0,0,0,0,0,2</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>111</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,0,0,0,0,0,0,0,0,2</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>123</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,0,0,0,0,0,0,0,0,2</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>1</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>130</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>2,0,1,0,0,0,0,0,0,2</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

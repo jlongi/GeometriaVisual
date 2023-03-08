@@ -112,19 +112,39 @@ function readAux() {
           toc_info.push({
             type: res[1],
             num:  res[2],
-            name: res[3],
+            name: res[3].replace(/\\IeC {\\'\\a\s*}/g, "á")
+                        .replace(/\\IeC {\\'\\e\s*}/g, "é")
+                        .replace(/\\IeC {\\'\\i\s*}/g, "í")
+                        .replace(/\\IeC {\\'\\o\s*}/g, "ó")
+                        .replace(/\\IeC {\\'\\u\s*}/g, "ú")
+                        .replace(/\\IeC {\\'a\s*}/g, "á")
+                        .replace(/\\IeC {\\'e\s*}/g, "é")
+                        .replace(/\\IeC {\\'i\s*}/g, "í")
+                        .replace(/\\IeC {\\'o\s*}/g, "ó")
+                        .replace(/\\IeC {\\'u\s*}/g, "ú"),
             page: parseInt(res[4])
           });
         }
         else {
           res = content[i].match(/^\\@writefile{toc}{\\contentsline {(.+?)}{(.+?)\\hspace\s+{.+?}(.+?)}{(.+?)}/);
 
-          toc_info.push({
-            type: res[1],
-            num:  res[2],
-            name: res[3],
-            page: parseInt(res[4])
-          });
+          if(res) {
+            toc_info.push({
+              type: res[1],
+              num:  res[2],
+              name: res[3].replace(/\\IeC {\\'\\a\s*}/g, "á")
+                          .replace(/\\IeC {\\'\\e\s*}/g, "é")
+                          .replace(/\\IeC {\\'\\i\s*}/g, "í")
+                          .replace(/\\IeC {\\'\\o\s*}/g, "ó")
+                          .replace(/\\IeC {\\'\\u\s*}/g, "ú")
+                          .replace(/\\IeC {\\'a\s*}/g, "á")
+                          .replace(/\\IeC {\\'e\s*}/g, "é")
+                          .replace(/\\IeC {\\'i\s*}/g, "í")
+                          .replace(/\\IeC {\\'o\s*}/g, "ó")
+                          .replace(/\\IeC {\\'u\s*}/g, "ú"),
+              page: parseInt(res[4])
+            });
+          }
         }
       }
       

@@ -1,4 +1,4 @@
-﻿<APP>Rafael_Alberti</APP>
+<APP>Rafael_Alberti</APP>
 
 <AUX>
 _escala_=24.349
@@ -15,7 +15,7 @@ show_E3=
 planoxy=1
 caja=0
 showFlechas=0
-bg_img=fotos/Rafael_LaEscuelaDeAtenas.jpg
+bg_img=//fotos/Rafael_LaEscuelaDeAtenas.jpg
 bg_img_x=1
 bg_img_y=3
 bg_img_a=0
@@ -34,7 +34,7 @@ bg_img_amp=0.4
 'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'morado' ¦ 2 ¦ '' ¦ ''
 'P_104:=newCnstrGCtrl3D('','',-3.989501012859,-6.213078969802,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
 'P_105:=newCnstrGCtrl3D('','',1.204044983661,-6.255559940783,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
-'P_106:=newCnstrGCtrl3D('0:1','',1.343963019248,1.513638935377,0,'103',azul_descartes_strong,2,'')' ¦ 'azul_descartes_strong' ¦ 2 ¦ '0:1' ¦ ''
+'P_106:=newCnstrGCtrl3D('0:1','',1.343963019248,1.513638935377,0,L_103,azul_descartes_strong,2,'')' ¦ 'azul_descartes_strong' ¦ 2 ¦ '0:1' ¦ ''
 'L_107:=newSvsL(P_104,P_105,L_103,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
 'L_108:=newLine2D(P_104,P_105,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
 'L_109:=newLine2D(P_106,P_104,fuerte,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ '' ¦ ''
@@ -60,7 +60,7 @@ bg_img_amp=0.4
 'L_129:=newLine2D(P_117,P_106,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
 'L_130:=newLine2D(P_118,P_106,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
 'L_131:=newLine2D(P_119,P_106,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'P_132:=newCnstrGCtrl3D('','',-0.57452089367,-1.26571495386,0,'109',gris_descartes_strong,1,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'P_132:=newCnstrGCtrl3D('','',-0.57452089367,-1.26571495386,0,L_109,gris_descartes_strong,1,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
 'L_133:=newLine2D(P_115,P_132,fuerte,1,'')' ¦ 'rosa_strong' ¦ 1 ¦ '' ¦ ''
 'P_134:=newMeetLL2D('','',L_113,L_133,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
 'P_135:=newMeetLL2D('','',L_129,L_133,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''

@@ -1,0 +1,64 @@
+﻿<APP>La polaridad invierte incidencia I (en el plano tangente)</APP>
+
+<AUX>
+_escala_=61.253968253968
+_Ox_=12.066
+_Oy_=52.4394
+_nNOG_=12
+_pasos_=1
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0867 ¦ -0.9924 ¦ 0.087
+0.9962 ¦ 0.087 ¦ -0.0001
+-0.0075 ¦ 0.0867 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('P','',-0.0453,4.3755,0,'',gris_descartes_strong,3,'')' ¦ 'gris_descartes_strong' ¦ 3 ¦ 'P' ¦ ''
+'P_102:=newCnstrGCtrl3D('A','',2.0159,0.8057,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'A' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',-2.3725,3.0728,0,'',rojo,0,'')' ¦ 'rojo' ¦ 0 ¦ '' ¦ ''
+'L_105:=newLine2D(P_104,P_102,fuerte,1,'')' ¦ 'rojo' ¦ 3 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',2.9608,4.3646,0,'',azul_descartes,0,'')' ¦ 'azul_descartes' ¦ 0 ¦ '' ¦ ''
+'L_107:=newLine2D(P_102,P_106,fuerte,1,'')' ¦ 'azul_descartes' ¦ 3 ¦ '' ¦ ''
+'L_108:=newParal2D(L_103,P_104,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_109:=newMeetLL2D('','',L_108,L_107,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_110:=newMidPoint('','',P_109,P_104,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'L_111:=newLine2D(P_110,P_102,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'P_112:=newCnstrGCtrl3D('Q','',-5.030126355433,-1.017098123071,0,L_111,verde,2,'')' ¦ 'verde' ¦ 2 ¦ 'Q' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>112</NOG>
+<SPACE>TL</SPACE>
+<TEXT>paso 12</TEXT>
+<HCOLS>2,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

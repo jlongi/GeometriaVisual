@@ -1,0 +1,250 @@
+﻿<APP>Latíz triangular euclidiana</APP>
+
+<AUX>
+_escala_=5.238032016101
+_Ox_=-10.736
+_Oy_=-11.3945
+_nNOG_=198
+_pasos_=1
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=0
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0871 ¦ 0
+-0.0076 ¦ 0.0869 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-3.493714405568,0.947289102799,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',0.538865625953,-10.477003760938,0,'',gris_descartes,1,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',-6.467795459979,6.16152053644,0,'',gris_descartes,1,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_104:=newLine2D(P_102,P_103,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',13.280580565661,0.400829315532,0,'',gris_descartes,1,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_106:=newLine2D(P_103,P_105,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_107:=newLine2D(P_102,P_105,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_108:=newParal2D(L_104,P_105,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_109:=newParal2D(L_106,P_102,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_110:=newParal2D(L_107,P_103,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_111:=newMeetLL2D('','',L_110,L_108,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_112:=newParal2D(L_106,P_111,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_113:=newMeetLL2D('','',L_110,L_109,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_114:=newParal2D(L_104,P_113,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_108,L_109,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_116:=newParal2D(L_107,P_115,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_117:=newMeetLL2D('','',L_106,L_116,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_118:=newParal2D(L_108,P_117,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_119:=newMeetLL2D('','',L_112,L_116,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_120:=newParal2D(L_118,P_119,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_121:=newMeetLL2D('','',L_112,L_104,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_122:=newParal2D(L_110,P_121,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_123:=newMeetLL2D('','',L_114,L_112,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_124:=newParal2D(L_122,P_123,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_125:=newMeetLL2D('','',L_107,L_114,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_126:=newParal2D(L_109,P_125,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_127:=newMeetLL2D('','',L_114,L_116,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_128:=newParal2D(L_126,P_127,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_129:=newMeetLL2D('','',L_107,L_120,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_130:=newParal2D(L_112,P_129,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_131:=newMeetLL2D('','',L_120,L_110,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_132:=newParal2D(L_130,P_131,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_133:=newMeetLL2D('','',L_122,L_120,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_134:=newParal2D(L_132,P_133,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_135:=newMeetLL2D('','',L_120,L_124,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_136:=newParal2D(L_134,P_135,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_137:=newMeetLL2D('','',L_124,L_106,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_138:=newParal2D(L_114,P_137,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_139:=newMeetLL2D('','',L_109,L_124,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_140:=newParal2D(L_138,P_139,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_141:=newMeetLL2D('','',L_126,L_124,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_142:=newParal2D(L_140,P_141,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_143:=newMeetLL2D('','',L_124,L_128,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_144:=newParal2D(L_142,P_143,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_145:=newMeetLL2D('','',L_104,L_128,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_146:=newParal2D(L_116,P_145,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_147:=newMeetLL2D('','',L_128,L_108,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_148:=newParal2D(L_146,P_147,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_149:=newMeetLL2D('','',L_128,L_118,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_150:=newParal2D(L_148,P_149,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_151:=newMeetLL2D('','',L_120,L_128,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_152:=newParal2D(L_150,P_151,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_153:=newMeetLL2D('','',L_136,L_118,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_154:=newParal2D(L_124,P_153,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_155:=newMeetLL2D('','',L_108,L_136,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_156:=newParal2D(L_154,P_155,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_157:=newMeetLL2D('','',L_104,L_136,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_158:=newParal2D(L_156,P_157,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_159:=newMeetLL2D('','',L_136,L_114,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_160:=newParal2D(L_158,P_159,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_161:=newMeetLL2D('','',L_138,L_136,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_162:=newParal2D(L_160,P_161,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_163:=newMeetLL2D('','',L_136,L_140,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_164:=newParal2D(L_162,P_163,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_165:=newMeetLL2D('','',L_136,L_142,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_166:=newParal2D(L_164,P_165,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_167:=newMeetLL2D('','',L_144,L_136,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_168:=newParal2D(L_166,P_167,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_169:=newMeetLL2D('','',L_122,L_144,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_170:=newParal2D(L_128,P_169,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_171:=newMeetLL2D('','',L_144,L_110,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_172:=newParal2D(L_170,P_171,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_173:=newMeetLL2D('','',L_144,L_107,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_174:=newParal2D(L_172,P_173,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_175:=newMeetLL2D('','',L_116,L_144,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_176:=newParal2D(L_174,P_175,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_177:=newMeetLL2D('','',L_144,L_146,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_178:=newParal2D(L_176,P_177,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_179:=newMeetLL2D('','',L_148,L_144,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_180:=newParal2D(L_178,P_179,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_181:=newMeetLL2D('','',L_150,L_144,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_182:=newParal2D(L_180,P_181,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_183:=newMeetLL2D('','',L_152,L_144,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_184:=newParal2D(L_182,P_183,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_185:=newMeetLL2D('','',L_152,L_126,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_186:=newParal2D(L_120,P_185,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_187:=newMeetLL2D('','',L_109,L_152,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_188:=newParal2D(L_186,P_187,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_189:=newMeetLL2D('','',L_106,L_152,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_190:=newParal2D(L_188,P_189,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_191:=newMeetLL2D('','',L_112,L_152,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_192:=newParal2D(L_190,P_191,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_193:=newMeetLL2D('','',L_130,L_152,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_194:=newParal2D(L_192,P_193,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_195:=newMeetLL2D('','',L_152,L_132,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_196:=newParal2D(L_194,P_195,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_197:=newMeetLL2D('','',L_134,L_152,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_198:=newParal2D(L_196,P_197,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_199:=newMeetLL2D('','',L_152,L_136,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_200:=newParal2D(L_198,P_199,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'L_201:=newParal2D(L_109,P_102,fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_202:=newMeetLL2D('','',L_134,L_168,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_203:=newParal2D(L_144,P_202,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_204:=newMeetLL2D('','',L_168,L_132,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_205:=newParal2D(L_203,P_204,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_206:=newMeetLL2D('','',L_130,L_168,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_207:=newParal2D(L_205,P_206,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_208:=newMeetLL2D('','',L_168,L_112,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_209:=newParal2D(L_207,P_208,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_210:=newMeetLL2D('','',L_106,L_168,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_211:=newParal2D(L_209,P_210,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_212:=newMeetLL2D('','',L_168,L_201,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_213:=newParal2D(L_211,P_212,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_214:=newMeetLL2D('','',L_126,L_168,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_215:=newParal2D(L_213,P_214,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_216:=newMeetLL2D('','',L_128,L_168,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_217:=newParal2D(L_215,P_216,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_218:=newMeetLL2D('','',L_168,L_170,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_219:=newParal2D(L_217,P_218,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_220:=newMeetLL2D('','',L_184,L_142,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_221:=newParal2D(L_152,P_220,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_222:=newMeetLL2D('','',L_184,L_140,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_223:=newParal2D(L_221,P_222,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_224:=newMeetLL2D('','',L_138,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_225:=newParal2D(L_223,P_224,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_226:=newMeetLL2D('','',L_184,L_114,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_227:=newParal2D(L_225,P_226,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_228:=newMeetLL2D('','',L_184,L_104,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_229:=newParal2D(L_227,P_228,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_230:=newMeetLL2D('','',L_108,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_231:=newParal2D(L_108,P_230,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'L_232:=newParal2D(L_229,P_230,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_233:=newMeetLL2D('','',L_118,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_234:=newParal2D(L_232,P_233,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_235:=newMeetLL2D('','',L_184,L_120,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_236:=newParal2D(L_234,P_235,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_237:=newMeetLL2D('','',L_186,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_238:=newParal2D(L_236,P_237,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_239:=newMeetLL2D('','',L_150,L_200,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_240:=newParal2D(L_136,P_239,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_241:=newMeetLL2D('','',L_148,L_200,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_242:=newParal2D(L_240,P_241,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_243:=newMeetLL2D('','',L_146,L_200,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_244:=newParal2D(L_242,P_243,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_245:=newMeetLL2D('','',L_200,L_116,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_246:=newParal2D(L_244,P_245,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_247:=newMeetLL2D('','',L_107,L_200,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_248:=newParal2D(L_246,P_247,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_249:=newMeetLL2D('','',L_110,L_200,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_250:=newParal2D(L_248,P_249,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_251:=newMeetLL2D('','',L_200,L_122,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_252:=newParal2D(L_250,P_251,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_253:=newMeetLL2D('','',L_200,L_124,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_254:=newParal2D(L_252,P_253,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_255:=newMeetLL2D('','',L_154,L_200,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_256:=newParal2D(L_254,P_255,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_257:=newMeetLL2D('','',L_188,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_258:=newParal2D(L_238,P_257,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_259:=newMeetLL2D('','',L_190,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_260:=newParal2D(L_258,P_259,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_261:=newMeetLL2D('','',L_192,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_262:=newParal2D(L_260,P_261,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_263:=newMeetLL2D('','',L_194,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_264:=newParal2D(L_262,P_263,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_265:=newMeetLL2D('','',L_196,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_266:=newParal2D(L_264,P_265,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_267:=newMeetLL2D('','',L_198,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_268:=newParal2D(L_266,P_267,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_269:=newMeetLL2D('','',L_200,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_270:=newParal2D(L_268,P_269,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_271:=newMeetLL2D('','',L_200,L_156,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_272:=newParal2D(L_256,P_271,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_273:=newMeetLL2D('','',L_200,L_158,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_274:=newParal2D(L_272,P_273,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_275:=newMeetLL2D('','',L_200,L_160,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_276:=newParal2D(L_274,P_275,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_277:=newMeetLL2D('','',L_200,L_162,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_278:=newParal2D(L_276,P_277,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_279:=newMeetLL2D('','',L_200,L_164,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_280:=newParal2D(L_278,P_279,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_281:=newMeetLL2D('','',L_200,L_166,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_282:=newParal2D(L_280,P_281,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_283:=newMeetLL2D('','',L_168,L_200,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_284:=newParal2D(L_282,P_283,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_285:=newMeetLL2D('','',L_168,L_172,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_286:=newParal2D(L_219,P_285,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_287:=newMeetLL2D('','',L_168,L_174,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_288:=newParal2D(L_286,P_287,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_289:=newMeetLL2D('','',L_168,L_176,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_290:=newParal2D(L_288,P_289,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_291:=newMeetLL2D('','',L_168,L_178,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_292:=newParal2D(L_290,P_291,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_293:=newMeetLL2D('','',L_180,L_168,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_294:=newParal2D(L_292,P_293,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_295:=newMeetLL2D('','',L_168,L_182,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_296:=newParal2D(L_294,P_295,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+'P_297:=newMeetLL2D('','',L_168,L_184,'')' ¦ 'gris_descartes' ¦ 21 ¦ '' ¦ ''
+'L_298:=newParal2D(L_296,P_297,fuerte,1,'')' ¦ 'fuerte' ¦ 21 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>298</NOG>
+<SPACE>BR</SPACE>
+<TEXT></TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>101</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

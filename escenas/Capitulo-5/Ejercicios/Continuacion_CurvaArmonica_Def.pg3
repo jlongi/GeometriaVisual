@@ -1,0 +1,133 @@
+﻿<APP>Definición de Curva Armónica</APP>
+
+<AUX>
+_escala_=47.978121602794
+_Ox_=-79.8416
+_Oy_=14.984
+_nNOG_=46
+_pasos_=3
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=135.0829
+show_E2=0
+show_E3=1
+planoxy=0
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.4991 ¦ 0.8187 ¦ 0.2841
+-0.8595 ¦ 0.5094 ¦ 0.0419
+-0.1104 ¦ -0.2651 ¦ 0.9579
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',2.006670190737,4.794073810332,-2.717824189299,'',rojo_soft,0,'')' ¦ 'rojo_soft' ¦ 0 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-0.042129940707,-3.299218877792,-3.143194709673,'',rojo_soft,0,'')' ¦ 'rojo_soft' ¦ 0 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',8.397779496818,0.378444530363,-2.957041099696,'',rojo_soft,0,'')' ¦ 'rojo_soft' ¦ 0 ¦ '' ¦ ''
+'T_104:=newT(P_101,P_102,P_103,fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',-1.257093286407,-3.454292302025,9.627437171737,'',rojo_soft,0,'')' ¦ 'rojo_soft' ¦ 0 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',7.017924947034,-3.485282738381,9.637211240511,'',rojo_soft,0,'')' ¦ 'rojo_soft' ¦ 0 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('','',3.057023948829,4.441666221861,9.687577674462,'',rojo_soft,0,'')' ¦ 'rojo_soft' ¦ 0 ¦ '' ¦ ''
+'T_108:=newT(P_105,P_106,P_107,fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
+'L_109:=newLine2D(P_105,P_103,fuerte,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_110:=newLine2D(P_106,P_101,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_111:=newLine2D(P_107,P_102,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'P_112:=newCnstrGCtrl3D('','',6.125661276588,-0.523528119691,0.004512409563,L_109,fuerte_strong,1,'')' ¦ 'fuerte_strong' ¦ 1 ¦ '' ¦ ''
+'T_113:=newT(P_112,P_106,P_101,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_114:=newMeetLT('','',L_111,T_113,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_115:=newLine2D(P_114,P_112,fuerte,1,'')' ¦ 'azul_descartes_strong' ¦ 2 ¦ '' ¦ ''
+'P_116:=newMeetLL2D('','',L_110,L_115,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'C_117:=newCurve(L_115,P_112,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_118:=newCnstrGCtrl3D('','',-5.583108678669,5.105559543148,2.109426635339,'',verde_strong,0,'')' ¦ 'verde_strong' ¦ 0 ¦ '' ¦ ''
+'P_119:=newCnstrGCtrl3D('','',0.841435966327,-6.493766272976,2.199518572179,'',verde_strong,0,'')' ¦ 'verde_strong' ¦ 0 ¦ '' ¦ ''
+'P_120:=newCnstrGCtrl3D('','',11.859965990573,2.278095516515,2.324211902284,'',verde_strong,0,'')' ¦ 'verde_strong' ¦ 0 ¦ '' ¦ ''
+'T_121:=newT(P_118,P_119,P_120,fuerte,'')' ¦ 'verde_soft' ¦ 1 ¦ '' ¦ ''
+'P_122:=newMeetLT('','',L_115,T_121,'')' ¦ 'fuerte_strong' ¦ 2 ¦ 'P' ¦ ''
+'C_123:=newCurve(P_122,P_112,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'T_124:=newT(P_103,P_107,P_102,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 0 ¦ '' ¦ ''
+'P_125:=newMeetLT('','',L_110,T_124,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'L_126:=newLine2D(P_125,P_103,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'T_127:=newT(P_102,P_101,P_106,fuerte,'')' ¦ 'gris_descartes_soft' ¦ 0 ¦ '' ¦ ''
+'P_128:=newMeetLT('','',L_109,T_127,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'L_129:=newLine2D(P_128,P_102,fuerte,1,'')' ¦ 'azul_descartes' ¦ 1 ¦ '' ¦ ''
+'T_130:=newT(P_122,P_102,P_128,fuerte,'')' ¦ 'gris_descartes' ¦ 0 ¦ '' ¦ ''
+'P_131:=newMeetLT('','',L_126,T_130,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_132:=newLine2D(P_122,P_131,fuerte,1,'')' ¦ 'rojo_strong' ¦ 2 ¦ '' ¦ ''
+'P_133:=newMeetLT('','',L_115,T_108,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_134:=newMeetLT('','',L_132,T_108,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_135:=newMeetLT('','',L_115,T_104,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_136:=newMeetLT('','',L_132,T_104,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'T_137:=newT(P_135,P_133,P_134,fuerte,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'T_138:=newT(P_135,P_133,P_136,fuerte,'')' ¦ 'amarillo_oscuro_soft' ¦ 1 ¦ '' ¦ ''
+'L_139:=newMeetTT('','',T_121,T_137,'')' ¦ 'verde_strong' ¦ 2 ¦ 0 ¦ 0
+'L_140:=newS(P_134,P_135,fuerte,1,'')' ¦ 'amarillo_oscuro_strong' ¦ 1 ¦ '' ¦ ''
+'L_141:=newS(P_135,P_136,fuerte,1,'')' ¦ 'amarillo_oscuro_strong' ¦ 1 ¦ '' ¦ ''
+'L_142:=newS(P_136,P_133,fuerte,1,'')' ¦ 'amarillo_oscuro_strong' ¦ 1 ¦ '' ¦ ''
+'L_143:=newS(P_133,P_134,fuerte,1,'')' ¦ 'amarillo_oscuro_strong' ¦ 1 ¦ '' ¦ ''
+'L_144:=newHarmonicReflection(139,115,132,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'P_145:=newHarmonicReflection(112,144,144,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+'C_146:=newCurve(L_144,P_112,'')' ¦ 'naranja_soft' ¦ 1 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>117</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>6,3,0,2,0,2,5,0,0,4</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>0</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>123</NOG>
+<SPACE>TR</SPACE>
+<TEXT>paso 23
+Sin Caja
+Girando</TEXT>
+<HCOLS>6,3,0,2,0,2,5,0,0,4</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>1</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>-1</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>146</NOG>
+<SPACE>TR</SPACE>
+<TEXT>paso 34
+Pto variable animado</TEXT>
+<HCOLS>3,2,0,0,0,2,1,0,0,2</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>0</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>1</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

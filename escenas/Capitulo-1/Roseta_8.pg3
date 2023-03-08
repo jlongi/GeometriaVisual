@@ -2,8 +2,8 @@
 
 <AUX>
 _escala_=205.165310637037
-_Ox_=-25.8897
-_Oy_=3.7585
+_Ox_=-51.8897
+_Oy_=-9.2415
 _nNOG_=99
 _pasos_=7
 E3.rot.x=0
@@ -29,21 +29,21 @@ bg_img_amp=1
 </ROTAR>
 
 <CONSTRUCTION>
-'P_101:=newCnstrGCtrl3D('','',0.17502558008,0.153846863658,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
-'P_102:=newCnstrGCtrl3D('','',0.214636711935,-0.142104451671,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_101:=newCnstrGCtrl3D('','',0.097476599847,0.105378751013,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',0.122547297909,-0.248734299491,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
 'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
-'P_104:=newCnstrGCtrl3D('','',-0.283929779166,-0.214863604344,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',-0.477802229747,-0.41358286619,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
 'L_105:=newLine2D(P_102,P_104,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
-'P_106:=newCnstrGCtrl3D('','',-0.187887135767,0.176503339144,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',-0.352678718761,0.060179868795,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
 'L_107:=newLine2D(P_104,P_106,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
 'L_108:=newLine2D(P_106,P_101,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
 'P_109:=newMeetLL2D('','',L_103,L_107,'')' ¦ 'azul_descartes_strong' ¦ 4 ¦ 'Y' ¦ ''
 'P_110:=newMeetLL2D('','',L_105,L_108,'')' ¦ 'rojo_strong' ¦ 4 ¦ 'X' ¦ ''
-'L_111:=newLine2D(P_110,P_109,fuerte,1,'')' ¦ 'morado' ¦ 2 ¦ '' ¦ ''
-'L_112:=newLine2D(P_101,P_104,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
-'P_113:=newMeetLL2D('','',L_111,L_112,'')' ¦ 'naranja_strong' ¦ 3 ¦ 'D' ¦ ''
-'L_114:=newLine2D(P_106,P_113,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
-'L_115:=newLine2D(P_113,P_102,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'L_111:=newLine2D(P_110,P_109,fuerte,1,'')' ¦ 'gris_descartes' ¦ 2 ¦ '' ¦ ''
+'L_112:=newLine2D(P_101,P_104,fuerte,1,'')' ¦ 'naranja' ¦ 11 ¦ '' ¦ ''
+'P_113:=newMeetLL2D('','',L_111,L_112,'')' ¦ 'naranja_strong' ¦ 3 ¦ 'A' ¦ ''
+'L_114:=newLine2D(P_106,P_113,fuerte,1,'')' ¦ 'naranja' ¦ 11 ¦ '' ¦ ''
+'L_115:=newLine2D(P_113,P_102,fuerte,1,'')' ¦ 'naranja' ¦ 11 ¦ '' ¦ ''
 'P_116:=newMeetLL2D('','',L_115,L_107,'')' ¦ 'rojo_soft' ¦ 3 ¦ '' ¦ ''
 'L_117:=newLine2D(P_116,P_110,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
 'P_118:=newMeetLL2D('','',L_114,L_103,'')' ¦ 'rojo_soft' ¦ 3 ¦ '' ¦ ''
@@ -52,13 +52,13 @@ bg_img_amp=1
 'L_121:=newLine2D(P_120,P_109,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
 'P_122:=newMeetLL2D('','',L_115,L_108,'')' ¦ 'azul_descartes_soft' ¦ 3 ¦ '' ¦ ''
 'L_123:=newLine2D(P_122,P_109,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'L_124:=newLine2D(P_102,P_106,fuerte,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'L_124:=newLine2D(P_102,P_106,fuerte,1,'')' ¦ 'verde' ¦ 11 ¦ '' ¦ ''
 'P_125:=newMeetLL2D('','',L_103,L_117,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
 'P_126:=newMeetLL2D('','',L_121,L_108,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
-'L_127:=newLine2D(P_125,P_126,fuerte,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'L_127:=newLine2D(P_125,P_126,fuerte,1,'')' ¦ 'verde' ¦ 11 ¦ '' ¦ ''
 'P_128:=newMeetLL2D('','',L_123,L_105,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
 'P_129:=newMeetLL2D('','',L_107,L_119,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
-'L_130:=newLine2D(P_128,P_129,fuerte,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'L_130:=newLine2D(P_128,P_129,fuerte,1,'')' ¦ 'verde' ¦ 11 ¦ '' ¦ ''
 'P_131:=newMeetLL2D('','',L_114,L_127,'')' ¦ 'rojo_soft' ¦ 2 ¦ '' ¦ ''
 'P_132:=newMeetLL2D('','',L_115,L_130,'')' ¦ 'rojo_soft' ¦ 2 ¦ '' ¦ ''
 'L_133:=newLine2D(P_131,P_132,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
@@ -69,7 +69,7 @@ bg_img_amp=1
 'L_138:=newLine2D(P_135,P_110,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
 'L_139:=newLine2D(P_132,P_109,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
 'L_140:=newLine2D(P_131,P_109,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'P_141:=newMeetLL2D('','',L_124,L_111,'')' ¦ 'verde_strong' ¦ 3 ¦ 'D′' ¦ ''
+'P_141:=newMeetLL2D('','',L_124,L_111,'')' ¦ 'verde_strong' ¦ 3 ¦ 'B' ¦ ''
 'P_142:=newMeetLL2D('','',L_133,L_123,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
 'P_143:=newMeetLL2D('','',L_108,L_139,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
 'P_144:=newMeetLL2D('','',L_138,L_139,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
@@ -112,10 +112,10 @@ bg_img_amp=1
 'T_181:=newTvsL(P_142,P_150,P_143,L_111,fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
 'T_182:=newTvsL(P_146,P_145,P_147,L_111,fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
 'T_183:=newTvsL(P_157,P_149,P_156,L_111,fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
-'P_184:=newMeetLL2D('','',L_121,L_117,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
-'P_185:=newMeetLL2D('','',L_117,L_123,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
-'P_186:=newMeetLL2D('','',L_119,L_123,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
-'P_187:=newMeetLL2D('','',L_121,L_119,'')' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_184:=newMeetLL2D('','',L_121,L_117,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_185:=newMeetLL2D('','',L_117,L_123,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_186:=newMeetLL2D('','',L_119,L_123,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
+'P_187:=newMeetLL2D('','',L_121,L_119,'')' ¦ 'fuerte' ¦ 1 ¦ '' ¦ ''
 'P_188:=newMeetLL2D('','',L_103,L_117,'')' ¦ 'verde_soft' ¦ 3 ¦ '' ¦ ''
 'P_189:=newMeetLL2D('','',L_107,L_119,'')' ¦ 'verde_soft' ¦ 3 ¦ '' ¦ ''
 'P_190:=newMeetLL2D('','',L_123,L_105,'')' ¦ 'verde_soft' ¦ 3 ¦ '' ¦ ''
@@ -167,7 +167,7 @@ bg_img_amp=1
 <PASO>
 <NOG>130</NOG>
 <SPACE>TR</SPACE>
-<TEXT></TEXT>
+<TEXT>Texto de este paso</TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>
@@ -183,7 +183,7 @@ bg_img_amp=1
 <PASO>
 <NOG>141</NOG>
 <SPACE>TR</SPACE>
-<TEXT></TEXT>
+<TEXT>Texto de este paso</TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>
@@ -199,7 +199,7 @@ bg_img_amp=1
 <PASO>
 <NOG>183</NOG>
 <SPACE>TR</SPACE>
-<TEXT></TEXT>
+<TEXT>Texto de este paso</TEXT>
 <HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>
@@ -215,7 +215,7 @@ bg_img_amp=1
 <PASO>
 <NOG>183</NOG>
 <SPACE>TR</SPACE>
-<TEXT></TEXT>
+<TEXT>Texto de este paso</TEXT>
 <HCOLS>0,3,1,0,1,0,3,0,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>
@@ -225,13 +225,13 @@ bg_img_amp=1
 <ANIM>0</ANIM>
 <FAMS>0</FAMS>
 <EXPLORE>1</EXPLORE>
-<NOMBRES>1</NOMBRES>
+<NOMBRES>0</NOMBRES>
 </PASO>
 
 <PASO>
 <NOG>199</NOG>
 <SPACE>TR</SPACE>
-<TEXT></TEXT>
+<TEXT>Texto de este paso</TEXT>
 <HCOLS>1,7,5,0,7,0,7,1,0,0</HCOLS>
 <HOBJS>-1</HOBJS>
 <3D></3D>

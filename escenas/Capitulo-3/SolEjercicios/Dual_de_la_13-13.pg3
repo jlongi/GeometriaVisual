@@ -1,0 +1,78 @@
+﻿<APP>Dual de la 13-13</APP>
+
+<AUX>
+_escala_=75.73637645286
+_Ox_=0
+_Oy_=50
+_nNOG_=26
+_pasos_=1
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=0
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0872 ¦ 0
+-0.0076 ¦ 0.0868 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-1.518361813737,0.180219286103,0,'',rojo,1,'')' ¦ 'rojo' ¦ 11 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',0.004685893192,1.427542839192,0,'',azul_descartes_strong,1,'')' ¦ 'azul_descartes_strong' ¦ 11 ¦ '' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte_soft,1,'')' ¦ 'fuerte_strong' ¦ 12 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',1.120712230166,1.059910634071,0,'',rojo,1,'')' ¦ 'rojo' ¦ 11 ¦ '' ¦ ''
+'L_105:=newLine2D(P_102,P_104,fuerte_soft,1,'')' ¦ 'fuerte_strong' ¦ 12 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',1.146971673389,-0.069245424515,0,'',azul_descartes_strong,1,'')' ¦ 'azul_descartes_strong' ¦ 11 ¦ '' ¦ ''
+'L_107:=newLine2D(P_104,P_106,fuerte_soft,1,'')' ¦ 'fuerte_strong' ¦ 12 ¦ '' ¦ ''
+'L_108:=newLine2D(P_106,P_101,fuerte_soft,1,'')' ¦ 'fuerte_strong' ¦ 12 ¦ '' ¦ ''
+'P_109:=newMeetLL2D('','',L_105,L_108,'')' ¦ 'verde' ¦ 13 ¦ '' ¦ ''
+'P_110:=newMeetLL2D('','',L_107,L_103,'')' ¦ 'verde' ¦ 13 ¦ '' ¦ ''
+'L_111:=newLine2D(P_102,P_106,azul_descartes,1,'')' ¦ 'azul_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'L_112:=newLine2D(P_101,P_104,rojo,1,'')' ¦ 'rojo' ¦ 1 ¦ '' ¦ ''
+'L_113:=newLine2D(P_109,P_110,verde,1,'')' ¦ 'verde' ¦ 1 ¦ '' ¦ ''
+'P_114:=newMeetLL2D('','',L_111,L_112,'')' ¦ 'verde' ¦ 3 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_113,L_112,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ '' ¦ ''
+'P_116:=newMeetLL2D('','',L_111,L_113,'')' ¦ 'rojo' ¦ 3 ¦ '' ¦ ''
+'L_117:=newLine2D(P_116,P_104,rojo,2,'')' ¦ 'rojo' ¦ 22 ¦ '' ¦ ''
+'L_118:=newLine2D(P_101,P_116,rojo,2,'')' ¦ 'rojo' ¦ 22 ¦ '' ¦ ''
+'L_119:=newLine2D(P_106,P_115,azul_descartes,2,'')' ¦ 'azul_descartes_strong' ¦ 22 ¦ '' ¦ ''
+'L_120:=newLine2D(P_102,P_115,azul_descartes,2,'')' ¦ 'azul_descartes_strong' ¦ 22 ¦ '' ¦ ''
+'L_121:=newLine2D(P_114,P_110,verde,2,'')' ¦ 'verde' ¦ 22 ¦ '' ¦ ''
+'L_122:=newLine2D(P_114,P_109,verde,2,'')' ¦ 'verde' ¦ 22 ¦ '' ¦ ''
+'P_123:=newMeetLL2D('','',L_117,L_119,'')' ¦ 'fuerte_strong' ¦ 22 ¦ '' ¦ ''
+'P_124:=newMeetLL2D('','',L_121,L_117,'')' ¦ 'fuerte_strong' ¦ 23 ¦ '' ¦ ''
+'P_125:=newMeetLL2D('','',L_121,L_119,'')' ¦ 'fuerte_strong' ¦ 23 ¦ '' ¦ ''
+'P_126:=newMeetLL2D('','',L_120,L_122,'')' ¦ 'fuerte_strong' ¦ 23 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>126</NOG>
+<SPACE>R</SPACE>
+<TEXT>Texto de este paso.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

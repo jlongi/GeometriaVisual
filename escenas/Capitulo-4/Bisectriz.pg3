@@ -1,0 +1,144 @@
+﻿<APP>Bisectrices</APP>
+
+<AUX>
+_escala_=45.573635647192
+_Ox_=44.6072
+_Oy_=-25.1715
+_nNOG_=44
+_pasos_=4
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=0
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0868 ¦ -0.9924 ¦ 0.0872
+0.9962 ¦ 0.0871 ¦ 0
+-0.0076 ¦ 0.0869 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-2.660293363198,-2.642413997937,0,'',rosa,1,'')' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-2.011534614103,1.062202186,0,'',rosa,1,'')' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('','',-0.211918746436,1.64510733963,0,'',rosa,1,'')' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'L_105:=newLine2D(P_102,P_104,fuerte,1,'')' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('','',0.782353129679,-0.448841535959,0,'',rosa,1,'')' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'L_107:=newLine2D(P_104,P_106,fuerte,1,'')' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'L_108:=newLine2D(P_106,P_101,fuerte,1,'')' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'P_109:=newMeetLL2D('','',L_105,L_108,'')' ¦ 'rosa_strong' ¦ 3 ¦ '' ¦ ''
+'P_110:=newMeetLL2D('','',L_107,L_103,'')' ¦ 'rosa_strong' ¦ 3 ¦ '' ¦ ''
+'L_111:=newLine2D(P_109,P_110,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 2 ¦ '' ¦ ''
+'L_112:=newLine2D(P_101,P_104,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'L_113:=newLine2D(P_106,P_102,fuerte,1,'')' ¦ 'naranja' ¦ 1 ¦ '' ¦ ''
+'P_114:=newMeetLL2D('','',L_111,L_112,'')' ¦ 'naranja_strong' ¦ 3 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_113,L_111,'')' ¦ 'naranja_strong' ¦ 3 ¦ '' ¦ ''
+'P_116:=newCnstrGCtrl3D('O','',-4.442442748429,-0.344552213349,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'O' ¦ ''
+'P_117:=newCnstrGCtrl3D('A','',-3.136886286954,-1.207292811369,0,'',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ 'A' ¦ ''
+'P_118:=newCnstrGCtrl3D('B','',-1.237516095812,2.11878769388,0,'',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'B' ¦ ''
+'L_119:=newLine2D(P_116,P_117,fuerte,1,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
+'L_120:=newLine2D(P_116,P_118,fuerte,1,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'P_121:=newMeetLL2D('','',L_119,L_111,'')' ¦ 'rojo' ¦ 3 ¦ '' ¦ ''
+'P_122:=newMeetLL2D('','',L_111,L_120,'')' ¦ 'azul_descartes' ¦ 3 ¦ '' ¦ ''
+'L_123:=newSvsL(P_116,P_118,L_111,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'L_124:=newSvsL(P_116,P_117,L_111,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'L_125:=newSvsL(P_117,P_121,L_120,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'L_126:=newSvsL(P_118,P_122,L_119,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'P_127:=newCnstrGCtrl3D('','',2.590174641375,4.341535357902,0,'111',amarillo_oscuro,2,'')' ¦ 'amarillo_oscuro' ¦ 2 ¦ '' ¦ ''
+'P_128:=newHarmonicReflection(127,114,115,'')' ¦ 'amarillo_oscuro' ¦ 1 ¦ '' ¦ ''
+'P_129:=newHarmonicReflection(128,110,109,'')' ¦ 'amarillo_oscuro' ¦ 3 ¦ '' ¦ ''
+'L_130:=newLine2D(P_116,P_129,fuerte,1,'')' ¦ 'amarillo_oscuro' ¦ 1 ¦ '' ¦ ''
+'P_131:=newHarmonicReflection(117,127,130,'')' ¦ 'amarillo_oscuro' ¦ 3 ¦ '' ¦ ''
+'C_132:=newCurve(P_131,P_127,'')' ¦ 'morado' ¦ 1 ¦ '' ¦ ''
+'P_133:=newMeetLEq('','',L_119,C_132,1,-1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'P_134:=newMeetLEq('','',L_120,C_132,0,-1,'')' ¦ 'azul_descartes' ¦ 3 ¦ '' ¦ ''
+'P_135:=newMeetLEq('','',L_120,C_132,1,-1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'L_136:=newLine2D(P_134,P_117,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 11 ¦ '' ¦ ''
+'P_137:=newMeetLL2D('','',L_136,L_111,'')' ¦ 'gris_descartes' ¦ 12 ¦ '' ¦ ''
+'P_138:=newHarmonicReflection(137,134,117,'')' ¦ 'fuerte' ¦ 12 ¦ '' ¦ ''
+'L_139:=newLine2D(P_116,P_138,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_140:=newLine2D(P_137,P_116,fuerte,1,'')' ¦ 'fuerte' ¦ 2 ¦ '' ¦ ''
+'L_141:=newLine2D(P_133,P_134,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 11 ¦ '' ¦ ''
+'L_142:=newLine2D(P_135,P_117,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 11 ¦ '' ¦ ''
+'L_143:=newLine2D(P_135,P_133,fuerte,1,'')' ¦ 'gris_descartes_soft' ¦ 11 ¦ '' ¦ ''
+'P_144:=newMeetLL2D('','',L_142,L_141,'')' ¦ 'gris_descartes' ¦ 12 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>126</NOG>
+<SPACE>TR</SPACE>
+<TEXT></TEXT>
+<HCOLS>0,0,5,0,0,0,0,0,5,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>135</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,5,1,0,0,0,0,5,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>139</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,5,1,0,0,0,0,5,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>144</NOG>
+<SPACE>TR</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,5,1,0,0,0,0,5,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

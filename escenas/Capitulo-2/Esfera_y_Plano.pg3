@@ -1,0 +1,125 @@
+﻿<APP>El cubrimiento doble de la esfera</APP>
+
+<AUX>
+_escala_=37.905001019798
+_Ox_=14.6855
+_Oy_=29.4492
+_nNOG_=25
+_pasos_=4
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=151.1997
+show_E2=0
+show_E3=1
+planoxy=1
+caja=0
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0351 ¦ 0.9812 ¦ 0.1897
+-0.9994 ¦ 0.033 ¦ 0.0139
+0.0073 ¦ -0.19 ¦ 0.9817
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('','',-5.972098214286,6.744791666667,0,'',fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_102:=newCnstrGCtrl3D('','',-2.492931547619,-3.776041666667,0,'',fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_103:=newCnstrGCtrl3D('','',6.527901785714,5.515625,0,'',fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'T_104:=newT(P_101,P_102,P_103,fuerte,'')' ¦ 'fuerte_soft' ¦ 1 ¦ '' ¦ ''
+'P_105:=newCnstrGCtrl3D('','',-4.203031747303,-0.336893471488,10.88151102913,'',gris_descartes_strong,1,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'P_106:=newCnstrGCtrl3D('O','',-1.432391926597,1.344337773166,6.27163453245,'',turquesa_strong,2,'')' ¦ 'turquesa_strong' ¦ 2 ¦ 'O' ¦ ''
+'C_107:=newCircle2D(P_106,'4.214229588853494',fuerte,'')' ¦ 'turquesa_soft' ¦ 1 ¦ '' ¦ ''
+'L_108:=newLine2D(P_105,P_106,fuerte,1,'')' ¦ 'gris_descartes_strong' ¦ 11 ¦ 'l' ¦ ''
+'P_109:=newMeetLEq('','',L_108,C_107,1,-1,'')' ¦ 'verde_strong' ¦ 1 ¦ '' ¦ ''
+'P_110:=newMeetLEq('','',L_108,C_107,1,-1,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'P_111:=newMeetLEq('','',L_108,C_107,0,-1,'')' ¦ 'gris_descartes_strong' ¦ 1 ¦ '' ¦ ''
+'P_112:=newMeetLT('','',L_108,T_104,'')' ¦ 'gris_descartes_strong' ¦ 3 ¦ 'X' ¦ ''
+'T_113:=newParalPlane(T_104,P_106)' ¦ 'gris_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'C_114:=newMeetCT(C_107,T_113)' ¦ 'gris_descartes' ¦ 1 ¦ '' ¦ ''
+'P_115:=newCnstrGCtrl3D('','',2.103828612083,4.206488312879,0,104,morado,1,'')' ¦ 'morado' ¦ 1 ¦ '' ¦ ''
+'P_116:=newCnstrGCtrl3D('','',3.34316658728,-4.2757870665,0,104,morado,1,'')' ¦ 'morado' ¦ 1 ¦ '' ¦ ''
+'L_117:=newLine2D(P_115,P_116,fuerte,1,'')' ¦ 'morado' ¦ 1 ¦ '' ¦ ''
+'T_118:=newT(P_106,P_115,P_116,fuerte,'')' ¦ 'morado' ¦ 1 ¦ '' ¦ ''
+'C_119:=newMeetCT(C_107,T_118)' ¦ 'morado' ¦ 1 ¦ '' ¦ ''
+'P_120:=newCnstrGCtrl3D('','',3.630063418698,2.450040523493,7.143907676534,'',rosa,1,'')' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'L_121:=newLine2D(P_120,P_106,fuerte,1,'')' ¦ 'rosa' ¦ 11 ¦ '' ¦ ''
+'T_122:=newPerpPlane(L_121,P_106)' ¦ 'rosa' ¦ 11 ¦ '' ¦ ''
+'C_123:=newMeetCT(C_107,T_122)' ¦ 'rosa' ¦ 1 ¦ '' ¦ ''
+'L_124:=newMeetTT('','',T_122,T_104,'')' ¦ 'rosa' ¦ 2 ¦ '' ¦ ''
+'P_125:=newMeetLT('','',L_121,T_104,'')' ¦ 'rosa' ¦ 2 ¦ '' ¦ ''
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>112</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso.</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>1</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>1</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>114</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>119</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>1</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>125</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>3,0,0,0,0,0,0,1,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>1</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>

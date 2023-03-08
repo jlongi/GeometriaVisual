@@ -1,19 +1,19 @@
 ﻿<APP>Tres losetas</APP>
 
 <AUX>
-_escala_=48
-_Ox_=-47
-_Oy_=116
+_escala_=61.198176291793
+_Ox_=-65.0376
+_Oy_=89.4838
 _nNOG_=22
-_pasos_=8
+_pasos_=7
 E3.rot.x=0
 E3.rot.y=0
 E3.rot.z=0
 Ex.Oy=0
 show_E2=1
 show_E3=
-planoxy=
-caja=
+planoxy=1
+caja=0
 showFlechas=0
 bg_img=
 bg_img_x=0
@@ -29,10 +29,10 @@ bg_img_amp=1
 </ROTAR>
 
 <CONSTRUCTION>
-'P_101:=newCnstrGCtrl3D('A','',-2.014378157026,3.316788419223,0,'',fuerte,3,'')' ¦ 'fuerte' ¦ 3 ¦ 'A' ¦ ''
-'P_102:=newCnstrGCtrl3D('D','',-2.159598214286,-0.442708333333,0,'',fuerte,3,'')' ¦ 'fuerte' ¦ 3 ¦ 'D' ¦ ''
-'P_103:=newCnstrGCtrl3D('C','',1.760029611209,0.432545693934,0,'',fuerte,3,'')' ¦ 'fuerte' ¦ 3 ¦ 'C' ¦ ''
-'P_104:=newCnstrGCtrl3D('B','',0.745731871604,2.566788419223,0,'',fuerte,3,'')' ¦ 'fuerte' ¦ 3 ¦ 'B' ¦ ''
+'P_101:=newCnstrGCtrl3D('A','',-2.014378157026,3.316788419223,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'A' ¦ ''
+'P_102:=newCnstrGCtrl3D('D','',-2.159598214286,-0.442708333333,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'D' ¦ ''
+'P_103:=newCnstrGCtrl3D('C','',2.029045370467,-0.004604914861,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'C' ¦ ''
+'P_104:=newCnstrGCtrl3D('B','',0.712104901697,2.499534479408,0,'',fuerte,2,'')' ¦ 'fuerte' ¦ 2 ¦ 'B' ¦ ''
 'L_105:=newLine2D(P_102,P_103,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
 'L_106:=newLine2D(P_101,P_104,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
 'L_107:=newLine2D(P_102,P_101,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
@@ -50,7 +50,7 @@ bg_img_amp=1
 'T_119:=newTvsL(P_101,P_102,P_103,L_116,fuerte,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
 'T_120:=newTvsL(P_104,P_102,P_103,L_116,fuerte,'')' ¦ 'rojo_soft' ¦ 1 ¦ '' ¦ ''
 'T_121:=newTvsL(P_104,P_101,P_102,L_114,fuerte,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
-'T_122:=newTvsL(P_103,P_102,P_101,L_114,azul_descartes_soft,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
+'T_122:=newTvsL(P_103,P_102,P_101,L_114,fuerte,'')' ¦ 'azul_descartes_soft' ¦ 1 ¦ '' ¦ ''
 </CONSTRUCTION>
 
 <PASOS>
@@ -160,22 +160,6 @@ bg_img_amp=1
 <3D></3D>
 <CAJA>0</CAJA>
 <PLANOXY>1</PLANOXY>
-<LNGLN>0</LNGLN>
-<ANIM>0</ANIM>
-<FAMS>0</FAMS>
-<EXPLORE>1</EXPLORE>
-<NOMBRES>1</NOMBRES>
-</PASO>
-
-<PASO>
-<NOG>122</NOG>
-<SPACE>TL</SPACE>
-<TEXT>Texto de este paso</TEXT>
-<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
-<HOBJS>-1</HOBJS>
-<3D></3D>
-<CAJA></CAJA>
-<PLANOXY></PLANOXY>
 <LNGLN>0</LNGLN>
 <ANIM>0</ANIM>
 <FAMS>0</FAMS>

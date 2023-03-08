@@ -1,0 +1,138 @@
+﻿<APP>Lema del triángulo de Klein</APP>
+
+<AUX>
+_escala_=48
+_Ox_=-24
+_Oy_=77
+_nNOG_=22
+_pasos_=5
+E3.rot.x=0
+E3.rot.y=0
+E3.rot.z=0
+Ex.Oy=0
+show_E2=1
+show_E3=
+planoxy=
+caja=
+showFlechas=0
+bg_img=
+bg_img_x=0
+bg_img_y=0
+bg_img_a=0
+bg_img_amp=1
+</AUX>
+
+<ROTAR>
+0.0591 ¦ -0.9944 ¦ 0.0872
+0.9982 ¦ 0.0595 ¦ 0.0024
+-0.0076 ¦ 0.0869 ¦ 0.9962
+</ROTAR>
+
+<CONSTRUCTION>
+'P_101:=newCnstrGCtrl3D('B','',-0.393316880769,5.821705513079,0,'',azul_descartes,2,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'B' ¦ ''
+'P_102:=newCnstrGCtrl3D('A','',-4.034948368118,-1.444108948661,0,'',rojo,2,'')' ¦ 'rojo' ¦ 2 ¦ 'A' ¦ ''
+'L_103:=newLine2D(P_101,P_102,fuerte,1,'')' ¦ 'verde' ¦ 2 ¦ '' ¦ ''
+'P_104:=newCnstrGCtrl3D('C','',2.067000657613,-0.109608435888,0,'',verde,2,'')' ¦ 'verde' ¦ 2 ¦ 'C' ¦ ''
+'L_105:=newLine2D(P_102,P_104,fuerte,1,'')' ¦ 'azul_descartes' ¦ 2 ¦ '' ¦ ''
+'L_106:=newLine2D(P_104,P_101,fuerte,1,'')' ¦ 'rojo' ¦ 2 ¦ '' ¦ ''
+'P_107:=newCnstrGCtrl3D('X','',-0.224899444943,2.264224384672,0,'',fuerte,1,'')' ¦ 'fuerte' ¦ 1 ¦ 'X' ¦ ''
+'L_108:=newLine2D(P_102,P_107,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'P_109:=newMeetLL2D('','',L_106,L_108,'')' ¦ 'rojo' ¦ 2 ¦ 'A' ¦ 'X'
+'L_110:=newLine2D(P_104,P_107,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'P_111:=newMeetLL2D('','',L_103,L_110,'')' ¦ 'verde_strong' ¦ 2 ¦ 'C' ¦ 'X'
+'P_112:=newHarmonicReflection(107,104,111,'')' ¦ 'fuerte' ¦ 2 ¦ 'X' ¦ 'C'
+'P_113:=newHarmonicReflection(107,109,102,'')' ¦ 'fuerte' ¦ 2 ¦ 'X' ¦ 'A'
+'L_114:=newLine2D(P_101,P_113,fuerte,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'P_115:=newMeetLL2D('','',L_114,L_105,'')' ¦ 'azul_descartes_strong' ¦ 3 ¦ '' ¦ ''
+'L_116:=newLine2D(P_101,P_107,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'P_117:=newMeetLL2D('','',L_116,L_105,'')' ¦ 'azul_descartes' ¦ 2 ¦ 'B' ¦ 'X'
+'L_118:=newLine2D(P_113,P_104,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'L_119:=newLine2D(P_112,P_102,fuerte_soft,1,'')' ¦ 'fuerte_soft' ¦ 11 ¦ '' ¦ ''
+'P_120:=newMeetLL2D('','',L_118,L_103,'')' ¦ 'verde' ¦ 12 ¦ '' ¦ ''
+'P_121:=newMeetLL2D('','',L_119,L_106,'')' ¦ 'rojo' ¦ 12 ¦ '' ¦ ''
+'P_122:=newMeetLL2D('','',L_116,L_119,'')' ¦ 'fuerte' ¦ 2 ¦ 'X' ¦ 'B'
+</CONSTRUCTION>
+
+<PASOS>
+
+<PASO>
+<NOG>106</NOG>
+<SPACE>BL</SPACE>
+<TEXT></TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D>0</3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>3</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>113</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>114</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA>0</CAJA>
+<PLANOXY>1</PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>115</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>-1</HOBJS>
+<3D></3D>
+<CAJA></CAJA>
+<PLANOXY></PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+<PASO>
+<NOG>122</NOG>
+<SPACE>BL</SPACE>
+<TEXT>Texto de este paso</TEXT>
+<HCOLS>0,0,0,0,0,0,0,0,0,0</HCOLS>
+<HOBJS>109,111,115,117,120,121</HOBJS>
+<3D></3D>
+<CAJA></CAJA>
+<PLANOXY></PLANOXY>
+<LNGLN>0</LNGLN>
+<ANIM>0</ANIM>
+<FAMS>0</FAMS>
+<EXPLORE>1</EXPLORE>
+<NOMBRES>1</NOMBRES>
+</PASO>
+
+</PASOS>
